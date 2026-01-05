@@ -81,15 +81,26 @@ class RanobeDBLightNovels(Source):
     # Configuration options
     options = (
         Option(
-            'preferred_language',
+            'language_order',
+            'string',
+            'en,romaji,ja',
+            _('Language preference order:'),
+            _(
+                'Comma-separated order for titles, authors, series names. '
+                'Options: en (English), romaji, ja (Japanese). '
+                'Example: "en,romaji,ja" means English first, then Romaji, then Japanese.'
+            ),
+        ),
+        Option(
+            'description_language',
             'choices',
             'en',
-            _('Preferred language:'),
-            _('Select preferred language for book titles and metadata'),
+            _('Description language:'),
+            _('Preferred language for book descriptions'),
             choices={
                 'en': _('English'),
                 'ja': _('Japanese'),
-                'romaji': _('Romaji'),
+                'both': _('Both (English first)'),
             },
         ),
         Option(
@@ -117,6 +128,62 @@ class RanobeDBLightNovels(Source):
             if elapsed < self.RATE_LIMIT_DELAY:
                 time.sleep(self.RATE_LIMIT_DELAY - elapsed)
             RanobeDBLightNovels._last_request_time = time.time()
+
+    # -------------------------------------------------------------------------
+    # Language Preference Helpers
+    # -------------------------------------------------------------------------
+
+    def _parse_language_order(self):
+        """
+        Parse user's language preference string into ordered list.
+
+        :return: List of language codes in preferred order, e.g. ['en', 'romaji', 'ja']
+        """
+        order_str = self.prefs.get('language_order', 'en,romaji,ja')
+
+        order = []
+        for lang in order_str.split(','):
+            lang = lang.strip().lower()
+            # Normalize language codes
+            if lang in ('en', 'english'):
+                lang = 'en'
+            elif lang in ('ja', 'japanese', 'jp'):
+                lang = 'ja'
+            elif lang == 'romaji':
+                lang = 'romaji'
+            else:
+                continue
+
+            if lang not in order:
+                order.append(lang)
+
+        # Ensure all languages are included as fallbacks
+        for lang in ['en', 'romaji', 'ja']:
+            if lang not in order:
+                order.append(lang)
+
+        return order
+
+    def _select_by_language(self, options):
+        """
+        Select value based on user's language preference order.
+
+        :param options: Dict with keys 'en', 'romaji', 'ja' and corresponding values
+        :return: First non-empty value in preferred order, or None
+        """
+        order = self._parse_language_order()
+
+        for lang in order:
+            value = options.get(lang)
+            if value:
+                return value
+
+        # Fallback to any non-None value
+        for value in options.values():
+            if value:
+                return value
+
+        return None
 
     # -------------------------------------------------------------------------
     # API Request Helpers
@@ -157,56 +224,67 @@ class RanobeDBLightNovels(Source):
 
     def _get_preferred_title(self, book_data, log=None):
         """
-        Get the title in the user's preferred language.
+        Get the title in the user's preferred language order.
 
         :param book_data: Book data from API
         :param log: Log object
         :return: Tuple of (title, language_code)
         """
-        pref_lang = self.prefs.get('preferred_language', 'en')
+        titles_list = book_data.get('titles', [])
 
-        # Try to find title in preferred language from titles array
-        titles = book_data.get('titles', [])
-
-        # Language code mapping
-        lang_map = {
-            'en': 'en',
-            'ja': 'ja',
-            'romaji': None,  # Romaji is stored in 'romaji' field
+        # Build options dict with available titles
+        options = {
+            'en': None,
+            'romaji': book_data.get('romaji') or book_data.get('romaji_orig'),
+            'ja': book_data.get('title_orig'),
         }
 
-        target_lang = lang_map.get(pref_lang, 'en')
+        # Extract titles from titles array
+        for t in titles_list:
+            lang = t.get('lang')
+            title_text = t.get('title')
+            if lang == 'en' and title_text:
+                options['en'] = title_text
+            elif lang == 'ja' and title_text:
+                options['ja'] = title_text
+            # Also check for romaji in title entries
+            romaji = t.get('romaji')
+            if romaji and not options['romaji']:
+                options['romaji'] = romaji
 
-        # If user wants romaji, try romaji field first
-        if pref_lang == 'romaji':
-            romaji = book_data.get('romaji')
-            if romaji:
-                return romaji, book_data.get('lang', 'ja')
-
-        # Try to find title in preferred language
-        for title_entry in titles:
-            if title_entry.get('lang') == target_lang:
-                return title_entry.get('title'), target_lang
-
-        # Fall back to main title
+        # Use main title as fallback based on its language
         main_title = book_data.get('title')
         main_lang = book_data.get('lang', 'ja')
 
-        # If main title is in preferred language, use it
-        if main_lang == target_lang:
-            return main_title, main_lang
+        if main_lang == 'en' and not options['en']:
+            options['en'] = main_title
+        elif main_lang == 'ja' and not options['ja']:
+            options['ja'] = main_title
 
-        # Last resort: check title_orig for original language title
-        if pref_lang == 'ja' and book_data.get('title_orig'):
-            return book_data.get('title_orig'), 'ja'
+        # If main title looks like English (mostly ASCII), use as English fallback
+        if main_title and not options['en']:
+            if all(
+                ord(c) < 128 for c in main_title.replace(' ', '').replace(':', '').replace('-', '')
+            ):
+                options['en'] = main_title
 
-        return main_title, main_lang
+        # Select based on user preference
+        title = self._select_by_language(options)
+
+        # Determine the language of the selected title
+        selected_lang = main_lang
+        if title == options['en']:
+            selected_lang = 'en'
+        elif title == options['ja']:
+            selected_lang = 'ja'
+
+        return title or main_title, selected_lang
 
     def _extract_authors(self, book_data, log=None):
         """
         Extract authors from book editions data.
         Only includes staff with role_type 'author'.
-        Prefers romaji names over Japanese names.
+        Uses user's language preference order.
 
         :param book_data: Book data from API
         :param log: Log object
@@ -218,10 +296,15 @@ class RanobeDBLightNovels(Source):
         for edition in editions:
             for staff in edition.get('staff', []):
                 if staff.get('role_type') == 'author':
-                    # Prefer: English/Romaji > Japanese
-                    romaji = staff.get('romaji')
-                    name = staff.get('name')
-                    author_name = romaji if romaji else name
+                    # Build options for this author
+                    # Note: API uses 'romaji' for romanized names, 'name' for Japanese
+                    options = {
+                        'en': staff.get('romaji'),  # Romaji serves as English
+                        'romaji': staff.get('romaji'),
+                        'ja': staff.get('name'),
+                    }
+
+                    author_name = self._select_by_language(options)
                     if author_name and author_name not in authors:
                         authors.append(author_name)
 
@@ -307,9 +390,85 @@ class RanobeDBLightNovels(Source):
             return f'{self.IMAGE_BASE_URL}/{image["filename"]}'
         return None
 
+    def _get_description(self, book_data, log=None):
+        """
+        Get book description based on user's language preference.
+
+        :param book_data: Book data from API
+        :param log: Log object
+        :return: Description string or None
+        """
+        pref = self.prefs.get('description_language', 'en')
+
+        desc_en = book_data.get('description')
+        desc_ja = book_data.get('description_ja')
+
+        if pref == 'en':
+            return desc_en or desc_ja
+        elif pref == 'ja':
+            return desc_ja or desc_en
+        elif pref == 'both':
+            parts = []
+            if desc_en:
+                parts.append(desc_en)
+            if desc_ja:
+                parts.append('\n\n---\n\n' + desc_ja)
+            return ''.join(parts) if parts else None
+
+        return desc_en or desc_ja
+
     # -------------------------------------------------------------------------
     # Series Helpers
     # -------------------------------------------------------------------------
+
+    def _get_series_name(self, series_data, log=None):
+        """
+        Get series name in user's preferred language.
+
+        :param series_data: Series data from API
+        :param log: Log object
+        :return: Series name string or None
+        """
+        if not series_data:
+            return None
+
+        # Build options from available series data
+        options = {
+            'en': None,
+            'romaji': series_data.get('romaji'),
+            'ja': None,
+        }
+
+        # Check titles array if available
+        for t in series_data.get('titles', []):
+            lang = t.get('lang')
+            title_text = t.get('title')
+            if lang == 'en' and title_text:
+                options['en'] = title_text
+            elif lang == 'ja' and title_text:
+                options['ja'] = title_text
+
+        # Use main title as fallback
+        main_title = series_data.get('title')
+        olang = series_data.get('olang', 'ja')
+
+        if olang == 'en' and not options['en']:
+            options['en'] = main_title
+        elif olang == 'ja' and not options['ja']:
+            options['ja'] = main_title
+
+        # If main title looks like English (mostly ASCII), use as English
+        if main_title and not options['en']:
+            if all(
+                ord(c) < 128
+                for c in main_title.replace(' ', '')
+                .replace(':', '')
+                .replace('-', '')
+                .replace("'", '')
+            ):
+                options['en'] = main_title
+
+        return self._select_by_language(options) or main_title
 
     def _get_series_info(self, book_data, log=None):
         """
@@ -323,16 +482,22 @@ class RanobeDBLightNovels(Source):
         if not series:
             return None, None
 
-        series_name = series.get('title')
+        # Get series name in preferred language
+        series_name = self._get_series_name(series, log)
 
         # Find series index from the books list in series
         series_index = None
         book_id = book_data.get('id')
+        books = series.get('books', [])
 
-        for idx, book in enumerate(series.get('books', []), start=1):
+        for idx, book in enumerate(books, start=1):
             if book.get('id') == book_id:
-                # Use sort_order if available, otherwise use position
-                series_index = book.get('sort_order', idx)
+                # Use sort_order if available, otherwise use position in list
+                sort_order = book.get('sort_order')
+                if sort_order is not None:
+                    series_index = sort_order
+                else:
+                    series_index = idx
                 break
 
         return series_name, series_index
@@ -428,9 +593,9 @@ class RanobeDBLightNovels(Source):
             'limit': max_results,
         }
 
-        # Add English language filter for releases
-        pref_lang = self.prefs.get('preferred_language', 'en')
-        if pref_lang == 'en':
+        # Add English language filter for releases if English is first preference
+        lang_order = self._parse_language_order()
+        if lang_order and lang_order[0] == 'en':
             params['rl[]'] = 'en'
 
         response = self._make_api_request('/books', params, log, timeout)
@@ -482,8 +647,8 @@ class RanobeDBLightNovels(Source):
             mi.isbn = isbn
             self.cache_isbn_to_identifier(isbn, book_id)
 
-        # Set description/comments
-        description = book_data.get('description') or book_data.get('description_ja')
+        # Set description/comments based on language preference
+        description = self._get_description(book_data, log)
         if description:
             mi.comments = description
 
