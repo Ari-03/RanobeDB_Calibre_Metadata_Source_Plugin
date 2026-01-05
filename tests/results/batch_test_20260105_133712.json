@@ -1,0 +1,2584 @@
+{
+  "timestamp": "2026-01-05T13:37:12.536488",
+  "total_tests": 13,
+  "passed": 11,
+  "failed": 2,
+  "tests": [
+    {
+      "name": "Sword Art Online",
+      "type": "title",
+      "query": {
+        "title": "Sword Art Online"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "Sword Art Online 1: Aincrad",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2009-04-10 00:00:00",
+          "comments": "In the year 2022, gamers rejoice as Sword Art Online - a VRMMORPG (Virtual Reality Massively Multiplayer Online Role Playing Game) like no other - debuts, allowing players to take full advantage of the ultimate in gaming technology: NerveGear, a system that allows users to completely immerse themselves in a wholly realistic gaming experience. But when the game goes live, the elation of the players quickly turns to horror as they discover that, for all its amazing features, SAO is missing one of the most basic functions of any MMORPG - a log-out button. Now trapped in the virtual world of Aincrad, their bodies held captive by NerveGear in the real world, users are issued a chilling ultimatum: conquer all one hundred floors of Aincrad to regain your freedom. But in the warped world of SAO, \"game over\" means certain death - both virtual and real...\n\n[From [Yen Press](https://yenpress.com/titles/9780316371247-sword-art-online-1-aincrad-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048677608",
+          "identifiers": {
+            "ranobedb": "5151"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "Sword Art Online 2: Aincrad",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2009-08-10 00:00:00",
+          "comments": "Linked up and logged into the deadly VMMORPG \"Sword Art Online\" in both the real and virtual worlds, Kirito is stuck in a hell of one man's making, and like everyone else, unable to escape until the game is beaten. But while some players are crippled by fear and others throw themselves into completing the game, still others relax into everyday life in the face of their cruel predicament and live to the best of their ability...laughing, crying, but always enjoying the game. Among them are four women who make a mark upon the solo adventurer that Kirito has become: Silica, the beast-tamer; Lisbeth, the blacksmith; Yui, the mysterious orphan; and the tragic Sachi, never to be forgotten by the black swordsman...\n\n[From [Yen Press](https://yenpress.com/titles/9780316376815-sword-art-online-2-aincrad-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048679350",
+          "identifiers": {
+            "ranobedb": "5505"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "Sword Art Online 3: Fairy Dance",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2009-12-10 00:00:00",
+          "comments": "Kirito has escaped Sword Art Online, the forbidden VRMMORPG of death, and returned to reality. He heads off to find his game partner and lover, Asuna Yuuki. But Asuna never made it back from the nightmare. Lost and desperate, Kirito's only clue to her virtual whereabouts is a mysterious screenshot of Asuna as a fairy trapped in a giant birdcage. His conclusion: She must be trapped within the new, high-powered VRMMORPG, ALfheim Online. Now Kirito must plunge into the world of ALO, where players are fairies who fly gracefully through the air!\n\n[From [Yen Press](https://yenpress.com/titles/9780316296427-sword-art-online-3-fairy-dance-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048681933",
+          "identifiers": {
+            "ranobedb": "5839"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "Sword Art Online 4: Fairy Dance",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": null,
+          "comments": "Read the novel that ignited the phenomenon! Kirito plunges into a suspicious new VRMMORPG called ALfheim Online to rescue Asuna, who never returned from Sword Art Online. ALO offers many features to entertain players in the wake ofSAO: ultra-high-end graphics, action-heavy gameplay, a choice of fairy races, and a next-generation flight engine. Playing as a spriggan, Kirito heads for the location of Asuna's prison--the top of the World Tree, the final destination of every player in the game! Along the way, Kirito nearly falls to a plot hatched by the enemy salamanders, just barely surviving the ordeal with the help of a sylph named Leafa and his Navigation Pixie, Yui. But just as Kirito and Leafa make it to the foot of the World Tree, the end of their quest in sight, each realizes the other has a very big secret...\n\n[From [Yen Press](https://yenpress.com/titles/9780316296434-sword-art-online-4-fairy-dance-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 4.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048684521",
+          "identifiers": {
+            "ranobedb": "6270"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "Sword Art Online 5: Phantom Bullet",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": null,
+          "comments": "READ THE NOVEL THAT IGNITED THE PHENOMENON! Kirito reenters the world of VRMMOs, this time logging in to Gun Gale Online in order to investigate the Death Gun, an in-game item rumored to be responsible for real-world deaths. He immediately runs into trouble when, after transferring his old avatar into the new game, he discovers that he looks a bit more feminine than he'd anticipated! With the help of Sinon the sniper, he enters the Bullet of Bullets tournament and tries to adapt his old skills to the new gun-based combat of Gun Gale Online. He'll need every friend he can get and every trick in the book, though, to learn the truth about the Death Gun!\n\n[From [Yen Press](https://yenpress.com/titles/9780316296441-sword-art-online-5-phantom-bullet-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 5.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048687638",
+          "identifiers": {
+            "ranobedb": "6653"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "Sword Art Online 6: Phantom Bullet",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2010-12-10 00:00:00",
+          "comments": "READ THE NOVEL THAT IGNITED THE PHENOMENON! In an effort to discover the truth behind Death Gun, Kirito has entered the Bullet of Bullets tournament in Gun Gale Online. Both he and Sinon the sniper girl have made it to the finals, and the reality of what they discover is stranger than anything they could've prepared for. As Sinon is forced to face her own past, lives are on the line once again, and Kirito struggles to connect Death Gun to events in the original SAO game--but can Death Gun's bizarre rampage be stopped in time?\n\n[From [Yen Press](https://yenpress.com/titles/9780316296458-sword-art-online-6-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 6.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048701327",
+          "identifiers": {
+            "ranobedb": "7023"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "Sword Art Online 7: Mother'S Rosary",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2011-04-10 00:00:00",
+          "comments": "Kirito and Sinon's battle with Death Gun is over, but mere weeks later, something strange is afoot in the next-generation VRMMO ALfheim Online. A new duelist with a custom sword skill is defeating all comers--including Kirito! But when Asuna goes to face this duelist, she receives something she never expected: An invitation to an exclusive guild! But what is their aim? The Mother's Rosary arc begins!\n\n[From [Yen Press](https://yenpress.com/titles/9780316390408-sword-art-online-7-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 7.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048704311",
+          "identifiers": {
+            "ranobedb": "7421"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "Sword Art Online 8: Early And Late",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": null,
+          "comments": "The saga of Sword Art Online continues with three side stories set during the Aincrad and Alfheim eras. The game of death took its toll on every player in a different way--when one turns up dead on the fifty-seventh floor, the game's afoot, and it's up to Asuna and Kirito to crack the case. There's also the story of how Kirito got his Excalibur sword in Alfheim (with a little help from his friends). And when the game of death first began, Kirito learned a difficult lesson--one he would never forget.\n\n[From [Yen Press](https://yenpress.com/titles/9780316390415-sword-art-online-8-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 8.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048707336",
+          "identifiers": {
+            "ranobedb": "7893"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "Sword Art Online 9: Alicization Beginning",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2012-02-10 00:00:00",
+          "comments": "Kirito awakens in a vast, fantastical forest filled with towering trees. In his search for clues to the truth of his surroundings, he encounters a young boy who seems to know him. He ought to be a simple NPC, but the depth of his emotions seem no different than a human. As they search for the boy's parents, Kirito finds a peculiar memory returning to him. A memory from his own childhood, of this boy and a girl, too, with golden hair, and a name he should have never forgotten--Alice.\n\n[From [Yen Press](https://yenpress.com/titles/9780316390422-sword-art-online-9-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 9.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048862714",
+          "identifiers": {
+            "ranobedb": "8571"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "Sword Art Online 10: Alicization Running",
+          "authors": [
+            "川原礫"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2012-07-10 00:00:00",
+          "comments": "Two years after waking up in a mysterious fantasy world, Kirito and his oddly human NPC friend, Eugeo, continue their quest to become Integrity Knights--and find Alice, who disappeared so long ago and yet has somehow lingered in the back of Kirito's mind. Their journey takes them to the Imperial Swordcraft Academy, where they must train to become two of the top twelve seats in the class to have even a hope of seeing Alice again. Meanwhile, as Asuna desperately searches for Kazuto Kirigaya, she stumbles across the deeper secret of his new world...\n\n[From [Yen Press](https://yenpress.com/titles/9780316390439-sword-art-online-10-light-novel)]",
+          "series": "Sword Art Online",
+          "series_index": 10.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048866972",
+          "identifiers": {
+            "ranobedb": "9129"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true,
+        "min_results": true,
+        "title_contains": true
+      }
+    },
+    {
+      "name": "Spice and Wolf",
+      "type": "title",
+      "query": {
+        "title": "Spice and Wolf"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 1",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2016-09-10 00:00:00",
+          "comments": "The young man Col dreams of one day joining the holy clergy and departs on a journey from the bathhouse \"The Spice and Wolf Inn,\" owned by his savior, Lawrence. The Winfiel Kingdom's prince has invited him to help correct the sins of the church. But as his travels begin, Col discovers in his luggage a young girl with a wolf's ears and tail named Myuri who stowed away for the ride! In the past, Col had accompanied the wisewolf Holo and the traveling merchant Lawrence on their own wanderings, eventually growing up alongside their daughter, Myuri as siblings. But as Col prepared to set off, Myuri opposed his departure and so she secretly ran away from home to join him! This is the story of Wolf and Parchment, and the pair's travels that will someday change the world!\n\n[From [Yen Press](https://yenpress.com/titles/9780316473477-wolf-parchment-new-theory-spice-wolf-vol-1-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784048923569",
+          "identifiers": {
+            "ranobedb": "18517"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 2",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2017-03-10 00:00:00",
+          "comments": "The young man Col and the daughter of the Wisewolf, Myuri, survived the scripture riots in the port town of Atiph. Col spends intense days being pined for after Myuri tells him about her love. Meanwhile, Heir Hyland commissions them for another next job. In the coming war with the Church's forces, control over the strait between the Kingdom of Winfiel and the mainland will play a crucial role. While Myuri is excited for a new adventure, Col cannot hide his unease after hearing about potential heresy among certain pirates for their faith in the \"Black-Mother\"!\n\n[From [Yen Press](https://yenpress.com/titles/9781975326203-wolf-parchment-new-theory-spice-wolf-vol-2-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784048927543",
+          "identifiers": {
+            "ranobedb": "19850"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 3",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2017-09-08 00:00:00",
+          "comments": "Encountering a storm on their return from the pirate islands, Col and Myuri are forced to dock at Desarev, one of Winfiel Kingdom's major ports. Though a lively enough town, priests are in short supply thanks to an imminent war with the Church, hence Col's sudden designation as \"The Twilight Cardinal,\" savior of the people! And as if a city's worth of religious problems isn't enough to deal with, suddenly Myuri is demanding to be Col's bride?! Meanwhile, a wool merchant named Ilenia approaches the \"couple,\" confiding that she's the embodiment of a sheep, before asking for their aid with some secret agenda she has cooked up...Though unsure just what to make of this sheep in merchant's clothing, Col and Myuri can't ignore her once she mentions the Moon-Hunting Bear.\n\n[From [Yen Press](https://yenpress.com/titles/9781975302757-wolf-parchment-new-theory-spice-wolf-vol-3-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784048933384",
+          "identifiers": {
+            "ranobedb": "21305"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 4",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2019-03-09 00:00:00",
+          "comments": "Rausbourne, Winfiel Kingdom’s second-largest city, is on the verge of boiling over. Col and Myuri have come to this bustling metropolis at Heir Hyland’s request—but as soon as they land, they find themselves caught between heavily armed tax collectors and mercenaries hired by the local merchants association. The stakes are high when it becomes clear that Rausbourne’s troubles are simply one part of the wider conflict between the Kingdom and the Church, which has actually worsened due to Col’s deeds as the Twilight Cardinal. If nothing changes, it’ll be only a matter of time before fighting breaks out. Right as things start to look their bleakest, Lawrence’s old archrival Eve Bolan offers a convenient lifeline. Will the fearless miser turn out to be friend or foe? Either way, Col has no choice but to dive into a three-pronged standoff between the Church, the Kingdom, and the merchants!\n\n[From [Yen Press](https://yenpress.com/titles/9781975399337-wolf-parchment-new-theory-spice-wolf-vol-4-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 4.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784049122015",
+          "identifiers": {
+            "ranobedb": "25684"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 5",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2020-05-09 00:00:00",
+          "comments": "After defusing another flash point in the ongoing fracas between the Winfiel Kingdom and the Church, Col and Myuri are more than ready to take a breather. Of course, the world has other plans for the infamous Twilight Cardinal. As the pair leisurely make their way to a famous monastery, they stumble upon a fallen squire who carries a desperate plea for help. With the world’s strongest holy order of knights on the brink of dissolution and Col apparently to blame, there’s no time to waste!\n\n[From [Yen Press](https://yenpress.com/titles/9781975321734-wolf-parchment-new-theory-spice-wolf-vol-5-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 5.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784049124521",
+          "identifiers": {
+            "ranobedb": "29318"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 6",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2021-03-10 00:00:00",
+          "comments": "After saving the Knights of Saint Kruza from the brink of destruction, Col and Myuri form their very own knightly order. Although Myuri is thrilled by the idea, she quickly realizes that her position as a knight is making it harder for her to keep making advances on Col. Before she has time to think of a solution, however, Hyland arrives with a request to investigate Raponell, a region whose prodigious wheat production is rumored to be the product of a deal with a devil. Combined with fresh clues that hint at the existence of a new continent to the west, Col and Myuri have little choice but to embark on a new adventure!\n\n[From [Yen Press](https://yenpress.com/titles/9781975340438-wolf-parchment-new-theory-spice-wolf-vol-6-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 6.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784049136241",
+          "identifiers": {
+            "ranobedb": "31767"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 7",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2021-12-10 00:00:00",
+          "comments": "Having unraveled the mystery of the ghost ships that visit Raponel, Col and Myuri head back to Rausbourne. The young hopeful priest redoubles his efforts to avoid war breaking out between the Winfiel Kingdom and the Church while Myuri is busy penning her own tale of gallant knighthood. In hopes of further spreading the vernacular translation of the scriptures, they begin looking into the art of printing, which has been banned by the church. Their search for a skilled craftsman soon leads them to a certain fugitive who agrees to help only if they can offer a tale that will make hearts tremble in exchange!\n\n[From [Yen Press](https://yenpress.com/titles/9781975352271-wolf-parchment-new-theory-spice-wolf-vol-7-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 7.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784049140408",
+          "identifiers": {
+            "ranobedb": "33906"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 8",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2022-08-10 00:00:00",
+          "comments": "After resolving a major source of tension in the Winfiel Kingdom, Col and Myuri have certainly earned their rest. Their respite doesn’t last for very long though because a messenger has come looking for the Twilight Cardinal with news about a conference eighty years in the making. Their destination will be the city of learning and books where there seems to be an uproar surrounding...another wolf girl?!\n\n[From [Yen Press](https://yenpress.com/titles/9781975369583-wolf-parchment-new-theory-spice-wolf-vol-8-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 8.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784049144604",
+          "identifiers": {
+            "ranobedb": "36050"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 9",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2023-07-07 00:00:00",
+          "comments": "Col has put an end to the battle over textbooks in Aquent and given Rutia a new purpose. With the printing of the vernacular scripture progressing nicely, it's time he prepared for the upcoming ecumenical council, where the clergy of the world will gather. To stand his own in the theological debates that are sure to occur, however, he will need to find as many allies as he can. That's why this is the worst possible time to start hearing rumors of another person claiming to be the Twilight Cardinal. Unfortunately, Col’s constant humility backfires, making it surprisingly hard for him to prove his own identity. What is he to do...?\n\n[From [Yen Press](https://yenpress.com/titles/9781975394059-wolf-parchment-new-theory-spice-wolf-vol-9-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 9.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784049151466",
+          "identifiers": {
+            "ranobedb": "39070"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "Wolf & Parchment: New Theory Spice & Wolf, Vol. 10",
+          "authors": [
+            "支倉凍砂"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2024-04-10 00:00:00",
+          "comments": "In the course of exposing the imposter posing as the Twilight Cardinal in Estadt, Col has finally resolved himself to bear the full weight of his title. And supporting him through every trial and tribulation is none other than Myuri, the proud Saint of the Sun. As they finalize their preparations for the ecumenical council, the two receive troubling news that Irenia, a subordinate of Abe and the incarnation of a sheep, has been imprisoned. And to make matters worse, her prison is in the mountainous city of Uban, a stronghold governed by one of the seven Elector Counts and self-proclaimed Mercenary King.\n\n[From [Yen Press](https://yenpress.com/titles/9798855410846-wolf-parchment-new-theory-spice-wolf-vol-10-light-novel)]",
+          "series": "Wolf & Parchment",
+          "series_index": 10.0,
+          "language": "en",
+          "tags": [
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "slice of life",
+            "anime tie-in"
+          ],
+          "isbn": "9784049155587",
+          "identifiers": {
+            "ranobedb": "41706"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true,
+        "min_results": true,
+        "title_contains": true
+      }
+    },
+    {
+      "name": "Re:Zero",
+      "type": "title",
+      "query": {
+        "title": "Re:Zero"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "Re:ゼロから始める異世界生活 29",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2022-03-25 00:00:00",
+          "comments": "「こいつは、ルイは……『暴食』の大罪司教だ」\n\n『九神将』ヨルナ・ミシグレの調略のため、魔都カオスフレームへ向かったナツキ・スバルを未曽有の異変が襲う。\n『幼児化』という危機に対し、異変を企てた敵が提案するのは、都市全域を舞台とした『かくれんぼ』の勝負だった。\n始まる新たな『死』の螺旋、縮んだ手足と焦燥感を引きずって走り続けるスバルは、ついに連れ歩く少女――ルイの正体の一端に触れることとなる。それは、許されざる\"大罪\"との向き合いを意味していて――。\n「死にたくなかったら、俺から離れるな。俺も、お前を死なせたくない。……今は」\n大人気Ｗｅｂ小説、無垢と退行の二十九幕。――俺を奮い立たせる。皆との絆と、君の声が。\n\n[From [BookWalker](https://bookwalker.jp/de66a718a3-d2ab-40bb-bcab-4068710c271f/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 30.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046812865",
+          "identifiers": {
+            "ranobedb": "34826"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 30",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2022-06-24 00:00:00",
+          "comments": "「うるせぇよ、クソジジイ。――百万回でも、死んできてやる」\n\n魔都カオスフレームを襲う未曽有の事態、それは帝国を滅ぼしかねない災いの顕現。\n魔都に集ったものたちが戦いを挑む中、勝算を探るアベルが辿り着いたのは、星の巡りたる天命を知る『星詠み』――その役目を負う見知った人物だった。\n時を同じくして、ナツキ・スバルと別れ、城郭都市に残ったレムの下へも凶報が舞い込む。空を埋め尽くす飛竜の群れの襲来に、阿鼻叫喚の地獄と化した都市を往くのは、竜を率いた怒れる竜人の少女――。\n「――なんだか、壮大な物語が始まる予感がしませんか？」\n大人気Ｗｅｂ小説、団結と離別の三十幕。――この雪を連れて、私はあなたに会いにきた。\n\n[From [BookWalker](https://bookwalker.jp/def65bb217-1a12-4415-a5af-10b5c0ea2a84/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 31.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046814760",
+          "identifiers": {
+            "ranobedb": "35608"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 31",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2022-09-22 00:00:00",
+          "comments": "「初めてだった……。オレを、信じると、そう言った奴は……」\n\n命懸けの死合いを見世物に、帝国の血の渇きを満たす剣奴孤島『ギヌンハイブ』――それが、魔都の狂騒を乗り越えたナツキ・スバルを迎えた新たなステージだった。\n『幼児化』の影響の解けぬまま孤島の洗礼を受けるスバルは、同じ境遇の仲間を束ね、残酷な死合いの攻略へ挑む。\nだが、結束するスバルたちを嘲笑うように色濃さを増していく孤島の暗雲。\nそして果たされる因縁の邂逅、ナツキ・スバルは再び、帝国最大の恐怖と対決する――。\n「お前さん、俺の知ってる怖い奴と似た臭いがするな」\n大人気Ｗｅｂ小説、欺瞞と栄光の三十一幕。――もう二度と、俺は、お前に見失わせない。\n\n[From [BookWalker](https://bookwalker.jp/deccec2f36-3e3a-4d26-9267-324dfa42c05b/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 32.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046817488",
+          "identifiers": {
+            "ranobedb": "36412"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 32",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2022-12-23 00:00:00",
+          "comments": "「――私たちが、この戦いに風穴を開けましょう」\n\n消えたナツキ・スバルとレムの行方を追い、ヴォラキア帝国へと入ったエミリアと仲間たち。安否の知れないスバルたちを案じる思いと裏腹に、戦火は日に日に帝国を焼いていく。追いやった偽皇帝と追いやられた皇帝の思惑、帝国中に広まる反乱の兆しはついに決壊の時を迎え、帝都ルプガナを舞台に帝国史に残る大乱の幕が切って落とされる。始まった戦いの中、奔走するエミリアたちに立ちはだかるのは、城壁を守る帝国最強の守護者たちで――。\n「手を貸してください。――この戦場のチャンネルは、僕が支配します」\n大人気Ｗｅｂ小説、謀略と血風の三十二幕。――狼共、幸せか？　愛し合うより殺し合いが。\n\n[From [BookWalker](https://bookwalker.jp/dedd4b9743-7861-4676-a19d-47698e82443c/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 33.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046820419",
+          "identifiers": {
+            "ranobedb": "37211"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 33",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2023-03-29 00:00:00",
+          "comments": "「俺たちは――！！」「「「最強！　最強！！　最強――ッ！！」」」\n\n佳境に入る帝都決戦、ヴォラキア帝国を巡る戦いについに参戦したナツキ・スバルと剣奴たちは、西から戦場を蹂躙する。各戦場に次々と加わる援軍が攻防戦の戦況を塗り替え、目前となった決着の時――真贋二人の皇帝は、水晶宮で対峙する。互いが抱いた目的のため、玉座を譲らんとする二人のヴィンセント。『星詠み』の語った天命の瞬間が迫る中、ヴォラキア全土を巻き込んだ謀略の真実と、彼方より訪れる『大災』の正体が明らかになり――、「では僕が答えをあげましょう。そういうのはですね。――伏線というんです！」\n大人気Ｗｅｂ小説、波乱と破綻の七章完結。――続けよう。伏線の開示と、帝国の終焉を。\n\n[From [BookWalker](https://bookwalker.jp/de272663fe-371a-42bc-970d-af20abda3dac/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 34.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046823311",
+          "identifiers": {
+            "ranobedb": "38143"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 34",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2023-06-23 00:00:00",
+          "comments": "「俺は他人を前向きに疑って、お前さんは他人を後ろ向きに信じてる」\n\nついに合流したベアトリスと共に、激戦の渦中にある帝都で連れ去られたレムと再会したナツキ・スバル。第三勢力の介入に揺れる都市から撤退を決めたスバルだったが、そこに協力を持ちかけてきたのは、因縁深き帝国兵トッド・ファングだった。奇しくもスバルと同じく帝都の放棄を決断するヴィンセント、被害の拡大を阻止したいエミリアと、それぞれの思惑に従う『九神将』。今、未曽有の危難たる『大災』が、帝国の滅びに指をかける――。\n「どこまでが貴様の描いた絵だ？　ナツキ・スバル。――親竜王国の『星詠み』よ」\n大人気Ｗｅｂ小説、赦しと断罪の三十四幕。相手が誰でも手を伸ばす。俺が俺であるために。\n\n[From [BookWalker](https://bookwalker.jp/deb24a7e2e-6c8a-4d89-926f-397d8fda4d3b/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 36.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046825674",
+          "identifiers": {
+            "ranobedb": "38932"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 35",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2023-09-25 00:00:00",
+          "comments": "「――決着を付けよう。俺たちのこの、よくわかんない愛おしい関係に」\n\nヴォラキア帝国との同盟を結び、屍人の軍勢たる『大災』と戦う決意を固めるナツキ・スバル。合流したアナスタシアたちを加え、襲いくる屍人の追撃を躱す一行にもたらされる光明、それは災いの訪れさえ予見した『星詠み』の天命だった。天命を切っ掛けに、向き合うときがきた。スバルとレム、そしてルイとの三人で始まった帝国での物語に。赦されざる罪人と蘇りし死者、一度は外れたモノたちに願いを抱く権利があるか、その瞳に資格を問う――。\n「――これは、過去に取り残された私たちと、あなたたちとの絶滅戦争なのよぉ」\n大人気Ｗｅｂ小説、贖罪と再生の三十五幕。どうか安らかに。祈りを込めてあなたを『喰らう』。\n\n[From [BookWalker](https://bookwalker.jp/de20fa7b84-4665-435d-9678-55f0d582e8f4/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 37.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046828637",
+          "identifiers": {
+            "ranobedb": "39807"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 36",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2023-12-25 00:00:00",
+          "comments": "「四大で一番、意思疎通が難しいのが『石塊』、母様からはそんな風に聞かされていたかしら」\n\n死者の軍勢に襲われるヴォラキア帝国で、屍人への対抗手段を手に入れたナツキ・スバル。一方、辿り着いた城塞都市でチシャの遺した情報から、アベルは屍人を率いる『魔女』スピンクスがもたらす『大災』の真の狙いを看破する。迫る帝国の滅亡を止めるため、スバルたちは決戦へ臨む覚悟を決める。同じ頃、帝都でセシルスと合流したアルは、囚われのプリシラを救い出し、あとに続くものたちの道を作るため、再び都の城壁の攻略を目指す。\n「愛を罰せよと？　――そのような無粋な行い、する方が惨めであろうよ」\n大人気Ｗｅｂ小説、天命と選択の三十六幕。誰の眼があろうとも、この道を往くは我一人――。\n\n[From [BookWalker](https://bookwalker.jp/de5bc86ca4-a26b-42f7-b07b-836d481dc682/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 38.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046831569",
+          "identifiers": {
+            "ranobedb": "40729"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 37",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2024-03-25 00:00:00",
+          "comments": "「俺が、お前の計画を狂わせる、災いの天敵だ」\n\nヴォラキア帝国の存亡をかけ、『魔女』率いる屍人の軍勢との最終局面へ突入するナツキ・スバル。城塞都市が大軍の足止めに籠城戦する中、スバルたちは『大災』の狙いを挫くため、再び帝都の五つの頂点の攻略へ挑む。龍虎相搏ち、雷鳴が大地に轟き、天空は氷炎に支配され、茨の冠に狼牙が迫り、燃える慈愛が妄執を打つ。いずれも世界の終わりを描くような激闘、その果てにスバルたちは宿願の成就を望むスピンクスの虚ろな眼と対峙して――。\n「幸せな夢を見ている暇なんてありません。――辛く苦しく、愛しい現実が待っているので」\n大人気Ｗｅｂ小説、死闘と切愛の三十七幕。そこにあなたがいないなら、私は世界を望まない。\n\n[From [BookWalker](https://bookwalker.jp/dee1c62d2f-6f8f-433b-9e25-dfc6b27c255e/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 39.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046834706",
+          "identifiers": {
+            "ranobedb": "41588"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "Re:ゼロから始める異世界生活 38",
+          "authors": [
+            "長月達平"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2024-06-25 00:00:00",
+          "comments": "「ワタシは、ワタシの持てる手札の全てで勝利してみせる」\n\nヴォラキア帝国の希望を背負い、滅亡の担い手である『大災』と戦い続けるナツキ・スバル。ついに己の造物目的を果たした『魔女』は、変わり果てた姿で最後の勝負を挑んでくる。次々と切られる手札は滅びへのカウントを進め、時計の針がゼロへ至るとき、慈悲と慈愛の焔が帝国を覆い尽くす。長きにわたる戦いの決着、夜明けと共に訪れる朝焼けを追い越す空に、一人でも多くの誰かと辿り着くため、今、剣狼の群れの心は一つになる――。\n「世界は妾にとって、都合の良いようにできておる。――そら見よ、また妾の勝ちじゃ」\n大人気Ｗｅｂ小説、愛情と情愛の三十八幕。焔のように生きよ。世界はかくも美しいのだから。\n\n[From [BookWalker](https://bookwalker.jp/de2943b504-5d59-4d2f-baea-3794315b41b8/)]",
+          "series": "Re:ZERO -Starting Life in Another World-",
+          "series_index": 40.0,
+          "language": "ja",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784046837042",
+          "identifiers": {
+            "ranobedb": "42451"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true,
+        "min_results": true
+      }
+    },
+    {
+      "name": "Overlord",
+      "type": "title",
+      "query": {
+        "title": "Overlord"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "熱風海陸ブシロード OVERLORD CHRONICLE",
+          "authors": [
+            "吉田直"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2006-06-30 00:00:00",
+          "comments": "公国トウライの将軍の嫡子カズサ＝シン。“天”から巨大な魔神とともに舞い降りた謎の美少女ヒカゲ。この二つの光に導かれ、時代は動き始める！　未完の超大作を補完する構想ノートも収録！\n\n[From [Sneaker Bunko](https://sneakerbunko.jp/product/neppu/200404000330.html)]",
+          "series": "熱風海陸ブシロード",
+          "series_index": 1.0,
+          "language": "ja",
+          "tags": [],
+          "isbn": "9784044184179",
+          "identifiers": {
+            "ranobedb": "48778"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "Overlord, Vol. 1: The Undead King",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2012-07-30 00:00:00",
+          "comments": "For twelve years, the virtual world of Yggdrasil has served as the playground and battlefield for the skeletal lord Momonga and his guild of fellow monsters, Ainz Ooal Gown. But the guild's glory days are over, and the game is shutting down permanently. When Momonga logs in one last time just to be there when the servers go dark, something happens-and suddenly, fantasy is reality. A rogues' gallery of fanatically devoted NPCs is ready to obey his every order, but the world Momonga now inhabits is not the one he remembers. The game may be over, but the epic tale of Ainz Ooal Gown is only beginning...\n\n[From [Yen Press](https://yenpress.com/titles/9780316363907-overlord-vol-1-light-novel)]",
+          "series": "Overlord",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047281523",
+          "identifiers": {
+            "ranobedb": "9177"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "Overlord, Vol. 2: The Dark Warrior",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2012-11-30 00:00:00",
+          "comments": "It has been a week since Momonga logged in to his favorite RPG one last time and stranded himself there. Now he leads his guild as the Ainz Ooal Gown overlord. Finding himself in dire need of better information, he travels disguised as an adventurer to the walled city of E-Rantel, with Narberal the battle maid at his side. The pair accept a mission to retrieve medicinal herbs, making for a forest said to be the home of a great and wise beast. But the sinister influence of a fanatical cabal approaches E-Rantel, and the armor-clad Ainz will face both a ruthless warrior and a legion of the undead!\n\n[From [Yen Press](https://yenpress.com/titles/9780316363914-overlord-vol-2-light-novel)]",
+          "series": "Overlord",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047284517",
+          "identifiers": {
+            "ranobedb": "9749"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "Overlord, Vol. 3: The Bloody Valkyrie",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2013-04-11 00:00:00",
+          "comments": "Lord Ainz has made great progress moonlighting as the indomitable hero Momon, but what should be a moment of triumph is shattered--by news of rebellion. He vows to find out what has happened and to defend the honor of his guild and home--Ainz Ooal Gown.\n\n[From [Yen Press](https://yenpress.com/titles/9780316363938-overlord-vol-3-light-novel)]",
+          "series": "Overlord",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047286894",
+          "identifiers": {
+            "ranobedb": "10364"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "Overlord, Vol. 4: The Lizardman Heroes",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2013-07-31 00:00:00",
+          "comments": "One day, in a peaceful lizardman village, an ominous messenger visits with a warning from the Great Tomb of Nazarick: In eight days' time, they will be annihilated. Unwilling to stand by and wait, the fighter and traveler Zaryusu journeys to the other lizardman tribes--who have received the same message--hoping to form an alliance against their impossibly strong opponent. But though the warriors try valiantly to resist, Ainz Ooal Gown and his undead army hold the power to determine their fate...\n\n[From [Yen Press](https://yenpress.com/titles/9780316397605-overlord-vol-4-light-novel)]",
+          "series": "Overlord",
+          "series_index": 4.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047289536",
+          "identifiers": {
+            "ranobedb": "10928"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "Overlord, Vol. 5: The Men Of The Kingdom Part I",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-01-09 00:00:00",
+          "comments": "In the kingdom of Re-Estize, a sinister organization known as the Eight Fingers holds sway of the criminal underworld. Ainzs orders Sebas to infiltrate the capital to gather intel on this shadowy group sucking the marrow from the kingdom's bones. At the same time, a young soldier named Climb struggles to hone his skills to better serve the \"Golden Princess\" while the once great warrior Brian returns home a broken man... Against the backdrop of an ancient city fraying at its edges, three men will challenge the corruption of the vicious Eight Fingers!\n\n[From [Yen Press](https://yenpress.com/titles/9780316397612-overlord-vol-5-light-novel)]",
+          "series": "Overlord",
+          "series_index": 5.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047292598",
+          "identifiers": {
+            "ranobedb": "11914"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "Overlord, Vol. 6: The Men Of The Kingdom Part Ii",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-01-31 00:00:00",
+          "comments": "After weathering several setbacks and attacks, the Eight Fingers criminal organization is not about to simply sit back and watch quietly. To retaliate, they've dispatched the infamously brutal enforcers, the Six Arms. Rushing out to meet them in battle is the adamantite-rank adventurer party, the Blue Roses, led by Lakyus herself.\n\n[From [Yen Press](https://yenpress.com/titles/9780316398800-overlord-vol-6-light-novel)]",
+          "series": "Overlord",
+          "series_index": 6.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047293564",
+          "identifiers": {
+            "ranobedb": "12015"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "Overlord, Vol. 7: The Invaders Of The Great Tomb",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-09-11 00:00:00",
+          "comments": "A group of \"workers\" whose better judgement has been clouded by hopes and expectations have descended into the unknown depths of a mysterious tomb. These trespassers include the small but elite team Foresight, the storied warriors of Heavy Masher, the crew lead by a legendary elder worker, Green Leaf, and the invincible swordsmen of Angel. They are some of the best that can be hired, but as more and more vengeful residents of Nazarrick appear, will any make it out alive?\n\n[From [Yen Press](https://yenpress.com/titles/9780316398817-overlord-vol-7-light-novel)]",
+          "series": "Overlord",
+          "series_index": 7.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047298095",
+          "identifiers": {
+            "ranobedb": "13281"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "Overlord, Vol. 8: The Two Leaders",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-12-26 00:00:00",
+          "comments": "After being saved from danger by Ainz, Enri and the apothecary Nfirea have been living life to the fullest as they spend their days together in Carne Village alongside their goblin-guard neighbors. But after the Wise King of the Forest left the region, the balance of the forest has been disrupted and something has filled the vacuum of power...\n\n[From [Yen Press](https://yenpress.com/titles/9780316398848-overlord-vol-8-light-novel)]",
+          "series": "Overlord",
+          "series_index": 8.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047300842",
+          "identifiers": {
+            "ranobedb": "13915"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "Overlord, Vol. 9: The Caster Of Destruction",
+          "authors": [
+            "丸山くがね"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-07-10 00:00:00",
+          "comments": "The annual war between the kingdom and the empire almost always ends in little more than a staring contest. This year, the Fresh Blood Emperor's visit to Nazarick will change everything. Ainz himself has joined the fray, which is a dark omen of the coming storm. The arrival of the absolute ruler of Nazarick means only horror and death await those who stand on what will become the most hellish battlefield anyone has seen in living memory...!\n\n[From [Yen Press](https://yenpress.com/titles/9780316398862-overlord-vol-9-light-novel)]",
+          "series": "Overlord",
+          "series_index": 9.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "sci-fi",
+            "anime tie-in",
+            "isekai",
+            "video game related"
+          ],
+          "isbn": "9784047304734",
+          "identifiers": {
+            "ranobedb": "15218"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true,
+        "min_results": true
+      }
+    },
+    {
+      "name": "Konosuba",
+      "type": "title",
+      "query": {
+        "title": "Konosuba"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "Konosuba: An Explosion On This Wonderful World!, Bonus Story, Vol. 1: We Are The Megumin Bandits",
+          "authors": [
+            "暁なつめ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2016-12-28 00:00:00",
+          "comments": "Enamored with a supercool masked man from the Silver-Haired Thief Brigade and captivated by the group’s outlaw lifestyle, the Arch-wizard resolves to form her own crew of bandits to support her newfound idols. Unfortunately, her “thieves” are problem children all around: a girl who can’t make friends, a super-overpowered princess, and a priestess with questionable morals. Can the explosion-obsessed leader of this band of unlikely burglars pull things together when real trouble strikes?\n\n[From [Yen Press](https://yenpress.com/titles/9781975387075-konosuba-an-explosion-on-this-wonderful-world-bonus-story-vol-1-light-novel)]",
+          "series": "Konosuba: An Explosion on This Wonderful World!",
+          "series_index": 4.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "sword and sorcery"
+          ],
+          "isbn": "9784041049914",
+          "identifiers": {
+            "ranobedb": "19086"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "Konosuba: An Explosion On This Wonderful World!, Bonus Story, Vol. 2: Deadbeat Busters",
+          "authors": [
+            "暁なつめ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2019-02-28 00:00:00",
+          "comments": "Everyone’s favorite Crimson Magic wizard is back with a new series of odd jobs to endure…and each request is more self-centered than the last! This time around, there’s the classic frog hunt, another slime crisis involving Cecily and the Axis Church, and an encounter with a mysterious beast. Can Megumin, Yunyun, and Iris maintain their sanity while dealing with these deadbeats?!\n\n[From [Yen Press](https://yenpress.com/titles/9781975319540-konosuba-an-explosion-on-this-wonderful-world-bonus-story-vol-2-light-novel)]",
+          "series": "Konosuba: An Explosion on This Wonderful World!",
+          "series_index": 5.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "sword and sorcery"
+          ],
+          "isbn": "9784041075555",
+          "identifiers": {
+            "ranobedb": "25707"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "Konosuba: An Explosion On This Wonderful World!, Vol. 1: Megumin'S Turn",
+          "authors": [
+            "暁なつめ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-07-01 00:00:00",
+          "comments": "One year before a certain useless goddess and NEET extraordinaire hit the scene, Megumin, the “Greatest Genius of the Crimson Magic Clan,” is hard at work. Ever since a life-changing encounter in her youth, the young wizard has dedicated her every waking moment to the pursuit of the ultimate offensive magic, Explosion! (Well…every moment not spent hustling food from her self-proclaimed rival.) And while the big sister’s away, the little one will play. On a routine trip into the woods, Megumin’s little sister, Komekko, finds a strange black kitten. Little does she know that this cat plays a key role in unsealing a Dark God’s tomb…\n\n[From [Yen Press](https://yenpress.com/titles/9781975387013-konosuba-an-explosion-on-this-wonderful-world-vol-1-light-novel)]",
+          "series": "Konosuba: An Explosion on This Wonderful World!",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "sword and sorcery"
+          ],
+          "isbn": "9784041018668",
+          "identifiers": {
+            "ranobedb": "12872"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "Konosuba: An Explosion On This Wonderful World!, Vol. 2: Yunyun'S Turn",
+          "authors": [
+            "暁なつめ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-12-01 00:00:00",
+          "comments": "With the ultimate offensive magic finally under her belt, Megumin is off to Axel Town to start her adventure, and nothing will stand in her way! …Except poverty. A trip from the local Teleportation Station isn’t cheap, and the closest it can get her to Axel is Arcanletia, the city of water and hot springs. It looks like Megumin’s got her (part-time) work cut out for her. Thankfully, she can look forward to help from Yunyun—as well as a certain sect of devout lunatics!\n\n[From [Yen Press](https://yenpress.com/titles/9781975387020-konosuba-an-explosion-on-this-wonderful-world-vol-2-light-novel)]",
+          "series": "Konosuba: An Explosion on This Wonderful World!",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "sword and sorcery"
+          ],
+          "isbn": "9784041024386",
+          "identifiers": {
+            "ranobedb": "13790"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "Konosuba: An Explosion On This Wonderful World!, Vol. 3: The Strongest Duo!'S Turn",
+          "authors": [
+            "暁なつめ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-05-30 00:00:00",
+          "comments": "Axel-a town where many would-be legends find their humble beginnings. It is here that the Crimson Magic duo endeavor to leave their mark on the world…but the only kind of mark Megumin can leave is a giant, smoking crater. And most parties simply don’t have room for a wizard limited to one excessively powerful Explosion per day. Sadly, Yunyun isn’t doing any better. Every party-request flyer she posts reeks of desperation, and her self-confidence bar is in the red! Will no one take a chance on these poor problem children?!\n\n[From [Yen Press](https://yenpress.com/titles/9781975387051-konosuba-an-explosion-on-this-wonderful-world-vol-3-light-novel)]",
+          "series": "Konosuba: An Explosion on This Wonderful World!",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "sword and sorcery"
+          ],
+          "isbn": "9784041031001",
+          "identifiers": {
+            "ranobedb": "15169"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "Konosuba: God'S Blessing On This Wonderful World! Fantastic Days",
+          "authors": [
+            "昼熊"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2022-03-01 00:00:00",
+          "comments": "Still hungry for Konosuba craziness after feasting on the misadventures of Kazuma, Aqua, Darkness, and Megumin? Well, you’re in luck! This novelization of the popular mobile game, Konosuba: Fantastic Days, includes a brand-new quest, featuring three new adventurers—and you can only read it here! Find out what happens when Kazuma and the gang, joined by a troupe of aspiring dancers, run into a former almost general of the Demon King… For the avid Konosuba content collector, this isn’t one to miss!\n\n[From [Yen Press](https://yenpress.com/titles/9781975371142-konosuba-god-s-blessing-on-this-wonderful-world-fantastic-days)]",
+          "series": "Konosuba: God's Blessing on This Wonderful World! Fantastic Days",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [],
+          "isbn": "9784041124369",
+          "identifiers": {
+            "ranobedb": "34918"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "Konosuba: God'S Blessing On This Wonderful World! Memorial Fan Book",
+          "authors": [
+            "Unknown"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2020-04-01 00:00:00",
+          "comments": "This book is not for the faint of heart. This Explooosive compendium of Konosuba content is a must-have for isekai hopefuls, collectors, and diehard fans of Natsume Akatsuki’s isekai adventure comedy masterpiece. Every character, every joke, every spinoff has been faithfully represented and acknowledged in this full-color love letter to Konosuba enjoyers worldwide! And the fun doesn’t end there! Exclusive art, interviews, and a special short story are just a few of the extra goodies featured within. If you consider yourself the ultimate Konosuba enthusiast, or if you’re just getting into the series and feel like having a handy reference tool, this gorgeous art book will be right at home on your shelf!\n\n[From [Yen Press](https://yenpress.com/titles/9781975325824-konosuba-god-s-blessing-on-this-wonderful-world-memorial-fan-book)]",
+          "series": "Konosuba: God's Blessing on This Wonderful World! Memorial Fan Book",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "sword and sorcery"
+          ],
+          "isbn": "9781975325824",
+          "identifiers": {
+            "ranobedb": "28981"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "Konosuba: God'S Blessing On This Wonderful World! Trpg",
+          "authors": [
+            "F.E.A.R."
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2019-08-01 00:00:00",
+          "comments": "The fantastical, wacky adventures from the famous Konosuba series come to life in this tabletop role-playing game. This book contains everything players and game masters need for questing like Kazuma and his merry gang of misfits. Fancy playing as a Crimson Magic Clan Wizard? You can. What about a Priest devoted to the Axis sect? Weird, but you can. There’s even a replay section where Natsume Akatsuki, the author of the Konosuba novels, plays a session! So what are you waiting for-an edict from Eris herself? The Adventurers Guild could always use a new party!\n\n[From [Yen Press](https://yenpress.com/titles/9781975316426-konosuba-god-s-blessing-on-this-wonderful-world-trpg)]",
+          "series": "Konosuba: God's Blessing on This Wonderful World! TRPG",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "sword and sorcery"
+          ],
+          "isbn": "9781975316426",
+          "identifiers": {
+            "ranobedb": "25620"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "Konosuba: God'S Blessing On This Wonderful World! Trpg Advanced Rule Book",
+          "authors": [
+            "大畑顕"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2021-05-20 00:00:00",
+          "comments": "At long last, the advanced rulebook for the tabletop roleplaying game in the world of Konosuba has arrived! Discover new elements in addition to detailed explanations of advanced classes, such as the brand-new “Demon Lord Army,” that will allow you to enjoy this wacky world even more. It’s time to get out of Axel, the town of beginnings, and have a truly high-level adventure!\n\n[From [Yen Press](https://yenpress.com/titles/9798855419474-konosuba-god-s-blessing-on-this-wonderful-world-trpg-advanced-rule-book)]",
+          "series": "Konosuba: God's Blessing on This Wonderful World! TRPG",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "sword and sorcery"
+          ],
+          "isbn": "9798855419474",
+          "identifiers": {
+            "ranobedb": "31417"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "Konosuba: God'S Blessing On This Wonderful World!, Vol. 1: Oh! My Useless Goddess!",
+          "authors": [
+            "暁なつめ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2013-10-01 00:00:00",
+          "comments": "Game loving shut-in Kazuma Sato's life as a young schoolboy in Japan abruptly comes to an early end...or at least it was supposed to. When he opens his eyes, though, he sees a beautiful goddess that offers him a once in an after-lifetime chance to be reborn in a parallel world. The catch is that the world is violent and threatened by a growing evil! Fortunately, he can choose any one thing to bring with him. So he chooses the goddess, Aqua! And so his adventure with his gorgeous companion begins--if he could just get enough money and food to survive, keep his goddess out of trouble, and avoid grabbing the attention of the Demon King's army!\n\n[From [Yen Press](https://yenpress.com/titles/9780316553377-konosuba-god-s-blessing-on-this-wonderful-world-vol-1-light-novel)]",
+          "series": "Konosuba: God's Blessing on This Wonderful World!",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "isekai",
+            "sword and sorcery",
+            "video game related"
+          ],
+          "isbn": "9784041010204",
+          "identifiers": {
+            "ranobedb": "11302"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true,
+        "min_results": true
+      }
+    },
+    {
+      "name": "Mushoku Tensei",
+      "type": "title",
+      "query": {
+        "title": "Mushoku Tensei"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation – A Journey Of Two Lifetimes",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2022-11-25 00:00:00",
+          "comments": "A special collection of new stories, art, and more after the finale of the bestselling Mushoku Tensei light novels!\n\nThe epic journey has reached its conclusion, but plenty of stories are left to tell for the Jobless Reincarnation cast! Return to the Six-Faced World with this special collection of new adventures while catching up with your favorite characters. This treasure trove of Mushoku Tensei works includes:\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-a-journey-of-two-lifetimes-special-book/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation Special Book",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "fantasy",
+            "harem",
+            "isekai"
+          ],
+          "isbn": "9784046819345",
+          "identifiers": {
+            "ranobedb": "36953"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation – Recollections",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2022-03-25 00:00:00",
+          "comments": "DIGITAL EXCLUSIVE!\nExperience the past adventures of the Jobless Reincarnation crew once again in this special collection! Enjoy more stories with some of your favorite characters during their early adventures—and tons more!\nThis Mushoku Tensei collection includes:\nAvailable only on digital platforms:\nKindle | BookWalker | NOOK | Kobo | iBooks (app) | Google Play\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-recollections-light-novel/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation – Recollections",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "fantasy",
+            "harem",
+            "isekai"
+          ],
+          "isbn": "9798893730388",
+          "identifiers": {
+            "ranobedb": "34836"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Vol. 1",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-01-24 00:00:00",
+          "comments": "Death is only the beginning in this epic and influential fantasy light novel series that spawned a manga adaptation (and a manga spin-off: Mushoku Tensei: Roxy Gets Serious), all available from Seven Seas. And don’t miss the new anime!\nKicked out by his family and wandering the streets, an unemployed 34-year-old shut-in thinks he’s hit rock-bottom—just as he’s hit and killed by a speeding truck! Awakening to find himself reborn as an infant in a world of swords and sorcery, but with the memories of his first life intact, Rudeus Greyrat is determined not to repeat his past mistakes. He’s going to make the most of this reincarnation as he sets off on the adventure of a second lifetime!\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-1/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "adventure",
+            "fantasy",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "magic",
+            "reincarnation"
+          ],
+          "isbn": "9784040662206",
+          "identifiers": {
+            "ranobedb": "12020"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Vol. 2",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-03-25 00:00:00",
+          "comments": "THE PUPIL BECOMES THE MASTER!\nRudeus is shipped off to Roa, the largest city in the region, to tutor the young daughter of a noble family. Unfortunately, what he thought would be an easy job proves the exact opposite once he meets his student, Eris—a fierce-tempered hurricane who blows Rudy’s optimistic expectations to bits! Can Rudy devise a plan to make his obstinate pupil listen, or is he already doomed to fail his second chance at success?\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-2/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "adventure",
+            "fantasy",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "magic",
+            "reincarnation"
+          ],
+          "isbn": "9784040663937",
+          "identifiers": {
+            "ranobedb": "12315"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Vol. 3",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-05-23 00:00:00",
+          "comments": "THE ROAD TO ADVENTURE\nTeleported to an unfamiliar land by a mysterious magical disaster, Rudeus and Eris are going to have to rely on their own wits to survive—and on each other! Which is easier said than done, especially when they find themselves face to face with one of the Superd, the murderous demon race Roxy warned Rudy about…\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-3/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "adventure",
+            "fantasy",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "magic",
+            "reincarnation"
+          ],
+          "isbn": "9784040667553",
+          "identifiers": {
+            "ranobedb": "12652"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Vol. 4",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-08-25 00:00:00",
+          "comments": "EYES OF THE DEMON\nContinuing their journey, Rudeus, Eris and Ruijerd have a run in with a figure from legend–none other than the Great Emperor of the Demon World, Kishirika herself! When the trio lend her their aid, Kishrika rewards Rudy with a strange new power…one that might just be more than he bargained for.\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-4/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation",
+          "series_index": 4.0,
+          "language": "en",
+          "tags": [
+            "adventure",
+            "fantasy",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "magic",
+            "reincarnation"
+          ],
+          "isbn": "9784040669618",
+          "identifiers": {
+            "ranobedb": "13171"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Vol. 5",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-10-24 00:00:00",
+          "comments": "FATHER VS. SON\nRudeus and his party arrive in Millishion, capital of the Holy Country of Millis—only to find themselves tangled up with yet another attempted kidnapping. But the real shock comes when the kidnappers’ very familiar boss shows up on the scene. What will this unexpected reunion bring?!\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-5/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation",
+          "series_index": 5.0,
+          "language": "en",
+          "tags": [
+            "adventure",
+            "fantasy",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "magic",
+            "reincarnation"
+          ],
+          "isbn": "9784040671307",
+          "identifiers": {
+            "ranobedb": "13528"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Vol. 6",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-02-25 00:00:00",
+          "comments": "A ROYAL MESS\nA tip from the enigmatic Man God leads to the Shirone Kingdom, where Lilia and Aisha are being held captive in the palace. Rudeus and company head to the rescue—only to get swept up in some nasty, unfinished business Roxy left in her wake! Family reunions are one thing, but can Dead End deal with saying goodbye to one of their own?\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-6/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation",
+          "series_index": 6.0,
+          "language": "en",
+          "tags": [
+            "adventure",
+            "fantasy",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "magic",
+            "reincarnation"
+          ],
+          "isbn": "9784040674124",
+          "identifiers": {
+            "ranobedb": "14311"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Vol. 7",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-08-25 00:00:00",
+          "comments": "THE MOTHER OF ALL ADVENTURES\nAlone and forlorn, Rudeus arrives at the city of Rosenburg to search for his mother, Zenith. Despite his attempts to focus on the task at hand, Eris’ absence weighs heavy on his heart, and so Rudeus gambles on a dangerous new venture to distract himself from his newfound loneliness—accepting an A-rank job all by himself.\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-7/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation",
+          "series_index": 7.0,
+          "language": "en",
+          "tags": [
+            "adventure",
+            "fantasy",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "magic",
+            "reincarnation"
+          ],
+          "isbn": "9784040677590",
+          "identifiers": {
+            "ranobedb": "15602"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Vol. 8",
+          "authors": [
+            "理不尽な孫の手"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-10-21 00:00:00",
+          "comments": "BACK TO SCHOOL\nA letter for Rudeus arrives out of the blue, bearing an invitation to enroll at the Ranoa University of Magic. The admissions exam is a cakewalk, but once Rudeus is accepted, a far less straightforward challenge awaits him—getting to know his eccentric new classmates!\n\n[From [Seven Seas Entertainment](https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-8/)]",
+          "series": "Mushoku Tensei: Jobless Reincarnation",
+          "series_index": 8.0,
+          "language": "en",
+          "tags": [
+            "adventure",
+            "fantasy",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "magic",
+            "reincarnation"
+          ],
+          "isbn": "9784040679464",
+          "identifiers": {
+            "ranobedb": "15988"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true,
+        "min_results": true
+      }
+    },
+    {
+      "name": "The Rising of the Shield Hero",
+      "type": "title",
+      "query": {
+        "title": "Shield Hero"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "The Rising Of The Shield Hero Volume 1",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2013-08-30 00:00:00",
+          "comments": "The Rising of the Shield Hero Novel Volume 1 features story by Aneko Yusagi.\nNaofumi Iwatani, an uncharismatic otaku who spends his days on games and manga, suddenly finds himself summoned to a parallel universe! He discovers he is one of four heroes equipped with legendary weapons and tasked with saving the world from its prophesied destruction.\nAs the Shield Hero, the weakest of the heroes, all is not as it seems. Naofumi is soon alone, penniless, and betrayed. With no one to turn to, and nowhere to run, he is left with only his shield. Now, Naofumi must rise to become the legendary Shield Hero and save the world!\n\n[From One Peace Books]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784840152754",
+          "identifiers": {
+            "ranobedb": "11044"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 2",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2013-10-25 00:00:00",
+          "comments": "The Rising of the Shield Hero Novel Volume 2 features story by Aneko Yusagi.\nNaofumi Iwatani continues his adventure in this second Volume. But his task is not yet complete and obstacles mount as the increasingly ominous waves of destruction approach. He finds a new friend and new powerful abilities that may prove to be too dangerous for the championship. Will Naofumi live up to his role as the Shield Hero and save the world from its prophesized destruction? Or will his dark side consume him?\n\n[From One Peace Books]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040660493",
+          "identifiers": {
+            "ranobedb": "11510"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 3",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2013-12-25 00:00:00",
+          "comments": "The Rising of the Shield Hero Novel Volume 3 features story by Aneko Yusagi.\nNaofumi Iwatani, still beset by enemies, continues to adventure through a fantasy world- a world he was suddenly thrown into without warning. In the third volume of this epic series, he encounters new friends and foes. A powerful threat reveals herself in the midst of an epic battle. A new companion with a penchant for magical birds, and ties to the royal family, appears at his side. And once again we find Naofumi plotted against, set up, and betrayed. Will Naofumi escape his pursuers and help the poor people of this strange world? Or is he forever doomed by the aggression that threatens to overcome him from all sides- and from within?\n\n[From One Peace Books]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040661667",
+          "identifiers": {
+            "ranobedb": "11834"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 4",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-02-25 00:00:00",
+          "comments": "Naofumi is on the run. Relentlessly pursued by Motoyasu and the others, Naofumi turns to a new friend for help?but things are not as they seem. A corrupt nobleman from Raphtalia’s past returns to unleash an ancient beast. Too large and ferocious for Naofumi to handle, the party seems to have met its match when yet another mysterious character makes her debut. Soon later, the mastermind behind Naofumi’s troubles is revealed. Enemies come out into the open as an epic battle for the fate of the heroes unfolds?just in time for the long-missing queen to arrive. The truth behind Naofumi’s betrayal, the secret of the Church of the Three Heroes, and reasons for the mounting tensions of war are finally brought to light, just as newer, deeper mysteries come to the surface!\n\n[From [One Peace Books](https://global.bookwalker.jp/de766e0682-302f-4ae8-8a0c-fc00ffe8e7b3/)]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 4.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040663210",
+          "identifiers": {
+            "ranobedb": "12204"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 5",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-04-25 00:00:00",
+          "comments": "Naofumi is off to the Cal Mira islands, where he plans to continue leveling up. Soon after arriving he meets a mysterious young man named L’Arc Berg. But how will this curious new character impact Naofumi’s adventures? Surrounded by mystery and intrigue, Glass makes her second appearance. Aneko Yusagi's epic fantasy continues in volume 5!\n\n[From [One Peace Books](https://global.bookwalker.jp/deeae018bb-1cf8-4085-bfa6-ba8fb0254429/)]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 5.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040667188",
+          "identifiers": {
+            "ranobedb": "12535"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 6",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-06-22 00:00:00",
+          "comments": "The Rising of the Shield Hero Novel Volume 6 features story by Aneko Yusagi.\nAfter their battle with Glass, Naofumi and the other heroes have a meeting with the queen and Naofumi is shocked to learn about the seven star heroes. Still reeling from this revelation, more drama unfolds on the islands before Naofumi and his party can return to Melromarc. He meets Rishia, who is betrayed by Itsuki and his party members. Naofumi sympathizes with her and invites her to join his party. Eventually, Naofumi discovers that she has a talent for magic, but before they can develop her powers, they are needed elsewhere. A massive monster bearing the appearance of a giant tortoise must be defeated. The monster is so powerful that even the mightiest adventurers cannot defeat him so what hope is there for Naofumi?\n\n[From One Peace Books]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 6.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040667904",
+          "identifiers": {
+            "ranobedb": "12790"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 7",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-09-25 00:00:00",
+          "comments": "The Rising of the Shield Hero Novel Volume 7 features story by Aneko Yusagi.\nNaofumi and his friends defeat the Spirit Tortoise after it rampages across the country. They leave in search of the other missing heroes and meet Ost along the way, who says she is one of the Spirit Tortoise's servants. She tells Naofumi that the Spirit Tortoise is still alive and that someone is pulling the strings to use the tortoise to destroy the world! Can Naofumi protect those he loves from this new danger?\n\n[From One Peace Books]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 7.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040669960",
+          "identifiers": {
+            "ranobedb": "13371"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 8",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-11-25 00:00:00",
+          "comments": "The Rising of the Shield Hero Novel Volume 8 features story by Aneko Yusagi.\nAt a critical moment, Naofumi and the others are saved by a young girl. Ost's sacrifice is enough to save them from their battle to the death with Kyo, but Kyo's able to escape to another world. Naofumi attempts to follow him, but he awakens to find himself in prison! His friends are scattered and he finds himself back at level one. How will Naofumi survive the new challenges that await him?\n\n[From One Peace Books]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 8.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040671802",
+          "identifiers": {
+            "ranobedb": "13759"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 9",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-01-23 00:00:00",
+          "comments": "The Rising of the Shield Hero Novel Volume 9 features story by Aneko Yusagi.\n“I will see to your punishment. Come at me!” Yomogi, a female warrior, attacks Naofumi and his team. The Shield Hero, Naofumi, finds himself separated from his companions—and reduced to level one!\nWith the help of Kizuna, one of the holy heroes from the new world, he is able to reunite with his friends. Naofumi prepares to battle their enemy Kyo, but then Yomogi attacks, declaring she is acting on Kyo’s behalf. In the middle of battle, Naofumi notices something strange about her powerful weapon—but what is it?\n\n[From One Peace Books]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 9.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040673554",
+          "identifiers": {
+            "ranobedb": "14155"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "The Rising Of The Shield Hero Volume 10",
+          "authors": [
+            "アネコユサギ"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-03-23 00:00:00",
+          "comments": "Finishing the battle with Kyo, Naofumi and his friends return safely to their world. The queen of Melromarc wishes to reward Naofumi for saving the world from the Spirit Tortoise. “Then can I have my own land?” After thinking about what he could do for his friend and partner, Raphtalia, Naofumi decides the best thing for their future would be the establishment of their own settlement-and he decides to build it on the ruins of Raphtalia's old hometown! The start of a whole new chapter in our hero's life begins here, in volume ten of this otherworld revenge fantasy!\n\n[From [One Peace Books](https://global.bookwalker.jp/de2f99b852-0596-4b3e-a58d-3df3650a3d15/)]",
+          "series": "The Rising of the Shield Hero",
+          "series_index": 10.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "drama",
+            "fantasy",
+            "romance",
+            "anime tie-in",
+            "harem",
+            "isekai",
+            "otaku"
+          ],
+          "isbn": "9784040674858",
+          "identifiers": {
+            "ranobedb": "14517"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true,
+        "min_results": true
+      }
+    },
+    {
+      "name": "That Time I Got Reincarnated as a Slime",
+      "type": "title",
+      "query": {
+        "title": "Reincarnated as a Slime"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 1",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2014-05-30 00:00:00",
+          "comments": "Lonely thirty-seven-year-old Satoru Mikami is stuck in a dead-end job, unhappy with his mundane life, but after dying at the hands of a robber, he awakens to a fresh start in a fantasy realm...as a slime monster! As he acclimates to his goopy new existence, his exploits with the other monsters set off a chain of events that will change his new world forever!\n\n[From [Yen Press](https://yenpress.com/titles/9781975301101-that-time-i-got-reincarnated-as-a-slime-vol-1-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896374599",
+          "identifiers": {
+            "ranobedb": "12677"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 2",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2014-08-29 00:00:00",
+          "comments": "37-year-old Satoru Mikami got a new lease on life when he was reincarnated into another world...as a slime named Rimuru Tempest. But with the help of his wits, his newfound powers, and a little luck, he's started building a cross-species village of goblins, direwolves, and dwarves! Rimuru doesn't know it yet, but his arrival is bringing major changes to his new world...\n\n[From [Yen Press](https://yenpress.com/titles/9781975301118-that-time-i-got-reincarnated-as-a-slime-vol-2-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896374735",
+          "identifiers": {
+            "ranobedb": "13251"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 3",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2014-12-24 00:00:00",
+          "comments": "TIMES ARE CHANGING FOR THE WORLD! After a furious battle with the orc lord, peace has once again returned to the Forest of Jura. Rimuru may be heading up the Great Forest of Jura Alliance, but he's most worried about finishing his town...until a visit from King Gazel Dwargo of the dwarves turns everything upside down! Not only that, but Rimuru is about to have a run-in with Milim Nava, an exceptionally dangerous demon lord known as the \"Destroyer.\" What's a slime to do?!\n\n[From [Yen Press](https://yenpress.com/titles/9781975301132-that-time-i-got-reincarnated-as-a-slime-vol-3-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896374889",
+          "identifiers": {
+            "ranobedb": "13899"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 4",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2015-04-30 00:00:00",
+          "comments": "NO REST FOR A NATION-BUILDING SLIME!Now that Rimuru's monster-centric town has blossomed into a bona fide independent nation, it's time for his next step: build and maintain diplomatic relations with nearby countries! With a group of his trusty monster pals, Rimuru travels to the Beast Kingdom of Eurazania and the Dwarven Kingdom to meet with their respective heads of state and represent his domain as best as a slime possibly can. As if there wasn't already enough on Rimuru's mind, the otherworlder Shizu has been visiting him in his dreams, begging him to save her former students. Looks like that'll be another stop on this pliable pioneer's itinerary...\n\n[From [Yen Press](https://yenpress.com/titles/9781975301149-that-time-i-got-reincarnated-as-a-slime-vol-4-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 4.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896375022",
+          "identifiers": {
+            "ranobedb": "14816"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 5",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2015-05-30 00:00:00",
+          "comments": "WHEN IT RAINS, IT POURS! Despite Rimuru's absence, things seem to be proceeding fairly smoothly in the newborn nation of Tempest. But there's trouble brewing elsewhere: The nearby Kingdom of Farmus's top brass are planning an invasion of Tempest, and at the same time, Rimuru's friend, Milim Nava, has declared war on Tempest's ally, the Beast Kingdom of Eurazania. As if things couldn't get any worse, all communication between Rimuru and his crew back home has suddenly gone silent in their hour of need! Tempest may be in for some hard times ahead - but this steadfast slime isn't throwing in the towel just yet. He has a plan...and it's downright demonic!\n\n[From [Yen Press](https://yenpress.com/titles/9781975301163-that-time-i-got-reincarnated-as-a-slime-vol-5-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 5.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896375077",
+          "identifiers": {
+            "ranobedb": "15011"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 6",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2015-10-30 00:00:00",
+          "comments": "Newly minted demon lord Rimuru has received word of a special assembly of all ten demon lords known as the Walpurgis Council. It just so happens that the topic of this particular meeting is how to best punish Rimuru for assuming his new title without their permission. Fortunately, he’s got friends in high places who are willing to vouch for his authenticity, and this council could be the perfect opportunity to get revenge on the demon lord Clayman for the violence he brought to Tempest. Is this blobby big shot cunning enough to kill two birds with one stone?\n\n[From [Yen Press](https://yenpress.com/titles/9781975301194-that-time-i-got-reincarnated-as-a-slime-vol-6-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 6.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896375381",
+          "identifiers": {
+            "ranobedb": "16067"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 7",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2016-04-28 00:00:00",
+          "comments": "A gutsy glob in crisis! News of the demon lord Clayman’s defeat by Rimuru shakes the Holy Empire of Lubelius to its core—especially since the chief knight of the nation’s Imperial Guard and captain of the Crusader forces, Hinata Sakaguchi, launched a bold attack on Rimuru not long ago. Things look only more dire when a priest sent by Rimuru to attend an urgent meeting of Lubelius bigwigs ends up murdered. The stakes couldn’t be higher for either side as Hinata heads to Tempest to settle things—one wrong move could spell total warfare!\n\n[From [Yen Press](https://yenpress.com/titles/9781975301217-that-time-i-got-reincarnated-as-a-slime-vol-7-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 7.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896375619",
+          "identifiers": {
+            "ranobedb": "17423"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 8",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2016-08-30 00:00:00",
+          "comments": "It’s festival time in Tempest, and this demon slime knows how to throw a party! After reconciling with Hinata and the Western Holy Church, Rimuru’s pulling out all the stops to prepare a massive bash in his nation of monsters—with a little help from his many friends and allies! It’s the perfect opportunity to debut his new demon lord title while showing the world everything the Jura-Tempest Federation has to offer. Will this big event go off without a hitch?\n\n[From [Yen Press](https://yenpress.com/titles/9781975313005-that-time-i-got-reincarnated-as-a-slime-vol-8-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 8.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896375770",
+          "identifiers": {
+            "ranobedb": "18150"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 9",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2016-11-30 00:00:00",
+          "comments": "The Tempest Founder’s Festival is in full swing, with Rimuru and all the monsters under him keeping busy setting up the attractions. From live concerts to incredible feats of monster engineering (most notably, the massive dungeon), revelers are sure to have their minds blown. But all eyes are on the main event—the First Tempest Battle Tournament—and who should decide to participate but the Hero himself, Lightspeed Masayuki! What will come of his chance encounter with the demon lord Rimuru?\n\n[From [Yen Press](https://yenpress.com/titles/9781975314385-that-time-i-got-reincarnated-as-a-slime-vol-9-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 10.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896376005",
+          "identifiers": {
+            "ranobedb": "18868"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "That Time I Got Reincarnated As A Slime, Vol. 10",
+          "authors": [
+            "伏瀬"
+          ],
+          "publisher": "Yen Press",
+          "pubdate": "2017-04-07 00:00:00",
+          "comments": "AN INSATIABLE GREED The Tempest Founder’s Festival was a roaring success, and after working out a few kinks, the Advanced Dungeon is proving to be a major Tempest tourist attraction. Now Rimuru’s next objective is to join the infamous Council of the West-however, a certain influential figure working from the shadows of the Council has no intention of allowing someone as powerful as Rimuru to take a seat at the table, and she will stop at nothing to quietly snuff him out before he makes any moves!\n\n[From [Yen Press](https://yenpress.com/titles/9781975314392-that-time-i-got-reincarnated-as-a-slime-vol-10-light-novel)]",
+          "series": "That Time I Got Reincarnated as a Slime",
+          "series_index": 11.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "fantasy",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784896376302",
+          "identifiers": {
+            "ranobedb": "20108"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true,
+        "min_results": true
+      }
+    },
+    {
+      "name": "SAO by Reki Kawahara",
+      "type": "title_author",
+      "query": {
+        "title": "Sword Art Online",
+        "author": "Reki Kawahara"
+      },
+      "success": true,
+      "passed": false,
+      "results_count": 0,
+      "results": [],
+      "errors": [],
+      "expectations_met": {
+        "has_results": false,
+        "min_results": false
+      }
+    },
+    {
+      "name": "Spice and Wolf by Isuna Hasekura",
+      "type": "title_author",
+      "query": {
+        "title": "Spice and Wolf",
+        "author": "Isuna Hasekura"
+      },
+      "success": true,
+      "passed": false,
+      "results_count": 0,
+      "results": [],
+      "errors": [],
+      "expectations_met": {
+        "has_results": false,
+        "min_results": false
+      }
+    },
+    {
+      "name": "Nonexistent Book",
+      "type": "title",
+      "query": {
+        "title": "This Book Does Not Exist XYZ123 Random String"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 0,
+      "results": [],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true
+      }
+    },
+    {
+      "name": "Empty search",
+      "type": "title",
+      "query": {
+        "title": ""
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 0,
+      "results": [],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true
+      }
+    },
+    {
+      "name": "Japanese Title (SAO)",
+      "type": "title",
+      "query": {
+        "title": "ソードアート・オンライン"
+      },
+      "success": true,
+      "passed": true,
+      "results_count": 10,
+      "results": [
+        {
+          "title": "Sword Art Online Alternative Clover'S Regret, Vol. 1",
+          "authors": [
+            "渡瀬草一郎"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2016-11-10 00:00:00",
+          "comments": "Asuka Empire. A Japanese-style VRMMO created by Akihiko Kayaba from a VR engine entitled “The Seed.” A game, once played by Yuuki, Ran, and Merida of the Sleeping Knights, that hides many stories... Two young women—warrior priestess Nayuta, and ninja Koyomi, who met and became friends in-game—come across a mysterious priest named Yanagi. The elderly man tells them that he’s looking for a detective to solve a riddle, and that the reward for this quest will be one million yen. Shocked by the outlandish sum of this peculiar request, the two girls come across an equally peculiar young man, who claims to be able to do the job as well as any other detective. With all his stat points invested in Luck, the man is useless in battle, but he does still seem to have some tricks up his sleeve, like that unbeatable drop rate for rare items... The mystery unfolds as two young girls and their dubious detective partner try to solve the case in this cutting-edge VRMMO world!\n\n[From [Yen Press](https://yenpress.com/titles/9781975390693-sword-art-online-alternative-clover-s-regret-vol-1-light-novel)]",
+          "series": "Sword Art Online Alternative Clover's Regret",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048924870",
+          "identifiers": {
+            "ranobedb": "18870"
+          },
+          "source_relevance": 0
+        },
+        {
+          "title": "Sword Art Online Alternative Clover'S Regret, Vol. 2",
+          "authors": [
+            "渡瀬草一郎"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2018-01-10 00:00:00",
+          "comments": "Klever, a SAO survivor currently working as a detective inside the VRMMORPG Asuka Empire, has another case on his hands. A girl who bears a mysterious resemblance to a new quest character needs help finding her missing father. Though the man in question went missing in the real world, Klever, along with his helpers Nayuta and Koyomi, will have to hit the streets in Asuka Empire to figure out what happened. Meanwhile, Nayuta and her friends visit a hot spring and attend a capybara festival, all within the game!\n\n[From [Yen Press](https://yenpress.com/titles/9781975390709-sword-art-online-alternative-clover-s-regret-vol-2-light-novel)]",
+          "series": "Sword Art Online Alternative Clover's Regret",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048935944",
+          "identifiers": {
+            "ranobedb": "22101"
+          },
+          "source_relevance": 1
+        },
+        {
+          "title": "Sword Art Online Alternative Clover'S Regret, Vol. 3",
+          "authors": [
+            "渡瀬草一郎"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2018-08-10 00:00:00",
+          "comments": "When a mysterious woman with a detailed knowledge of Klever's offline identity shows up, Nayuta and Koyomi can't hide their unease. What is her relationship to the eccentric detective? And how will Nayuta's change when she winds up staying over at Klever's house in the real world? Find out in this third and final installment of Sword Art Online Alternative Clover's Regret!\n\n[From [Yen Press](https://yenpress.com/titles/9781975390730-sword-art-online-alternative-clover-s-regret-vol-3-light-novel)]",
+          "series": "Sword Art Online Alternative Clover's Regret",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048939713",
+          "identifiers": {
+            "ranobedb": "23927"
+          },
+          "source_relevance": 2
+        },
+        {
+          "title": "ソードアート・オンライン オルタナティブ グルメ・シーカーズ",
+          "authors": [
+            "Y.A"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2023-11-17 00:00:00",
+          "comments": "《SAO》世界でのまったりグルメ探求ライフを描く、新スピンオフが始動！\n\n「アインクラッド攻略には興味ありません！　食堂の開業を目指します！」\n　VRMMOでの料理を体験してみたかっただけなのに、運悪く《ソードアート・オンライン》に閉じ込められてしまったゲーム初心者の姉弟、ユズとヒナ。\n　二人が取った選択は――《料理》スキルを極めること！？\n　同じく料理好きなプレイヤーとともに《食の探求団》という名のパーティーを結成。\n　美味な食材やレアな調理器具が報酬となるクエストをこなしたり、現代日本の料理再現に挑んだり……料理に全振りな日々を過ごし、屋台をオープン。\n　創意工夫を凝らしたメニューで、攻略プレイヤーたちの胃袋もわし掴み！\n　《SAO》世界でのまったりグルメ探求ライフ、スタート！\n\n[From [BookWalker](https://bookwalker.jp/de79647ead-d70e-47d7-896c-676b33abd3c2/)]",
+          "series": "ソードアート・オンライン オルタナティブ グルメ・シーカーズ",
+          "series_index": 1.0,
+          "language": "ja",
+          "tags": [],
+          "isbn": "9784049152104",
+          "identifiers": {
+            "ranobedb": "40335"
+          },
+          "source_relevance": 3
+        },
+        {
+          "title": "ソードアート・オンライン オルタナティブ グルメ・シーカーズ2",
+          "authors": [
+            "Y.A"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2024-10-17 00:00:00",
+          "comments": "《SAO》世界でのグルメ探求を描く新スピンオフ、第二層・第三層に到達！\n\nVRMMOでの料理を体験してみたかっただけなのに、運悪く《ソードアート・オンライン》に閉じ込められてしまったゲーム初心者の姉弟、ユズとヒナ。同じく料理好きなプレイヤーとともに《食の探求団》を結成し、料理を極めていくことに。\n　牛がテーマの第二層では、ライバルプレイヤーと牛肉料理対決！　第三層では、エルフ戦争キャンペーン・クエストに挑戦……と思いきや、エルフと一緒にレア食材を採集＆料理で後方支援！？\n　SAO攻略より、料理がしたい！　そんな料理人プレイヤーのまったりグルメ探求ライフ、第二弾！\n\n[From [BookWalker](https://bookwalker.jp/de016aec63-6f7d-4ab0-9fdf-015bc0cc0b88/)]",
+          "series": "ソードアート・オンライン オルタナティブ グルメ・シーカーズ",
+          "series_index": 2.0,
+          "language": "ja",
+          "tags": [],
+          "isbn": "9784049158281",
+          "identifiers": {
+            "ranobedb": "44105"
+          },
+          "source_relevance": 4
+        },
+        {
+          "title": "Sword Art Online Alternative Gun Gale Online, Vol. 1: Squad Jam",
+          "authors": [
+            "時雨沢恵一"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2014-12-10 00:00:00",
+          "comments": "A Brand-New Battlefield Awaits!Karen Kohiruimaki is a college student who stands at an imposing six feet. While her complex about her height makes it hard for her to make friends in the real world, the VRMMO Gun Gale Online changes everything. Now equipped with her ideal \"mini\" avatar and clad in a pink battle suit, Karen is ready to shoot up the world of GGO as Llenn! Before long, she meets the beautiful Pitohui, and the two rare female players become fast friends. Little does Llenn know that this friendship is the key to her entry in the first-ever Squad Jam, a team-based battle royale that echoes the famous Bullet of Bullets tournament...\n\n[From [Yen Press](https://yenpress.com/titles/9781975353896-sword-art-online-alternative-gun-gale-online-vol-1-light-novel)]",
+          "series": "Sword Art Online Alternative Gun Gale Online",
+          "series_index": 1.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048690942",
+          "identifiers": {
+            "ranobedb": "13829"
+          },
+          "source_relevance": 5
+        },
+        {
+          "title": "Sword Art Online Alternative Gun Gale Online, Vol. 2: Second Squad Jam: Start",
+          "authors": [
+            "時雨沢恵一"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-03-10 00:00:00",
+          "comments": "Though the official announcement of the second Squad Jam has come out, Karen Kohiruimaki barely shows any interest at all, despite being the champion of the first ferocious battle royale. Or at least, that was true right up to the moment she receives a cryptic message from a creepy stalker who informs her that on the night of the next Squad Jam, someone will die. Now, LLENN needs to take up arms and cut through her inexplicable anguish to prevent her worst fears from coming true!\n\n[From [Yen Press](https://yenpress.com/titles/9781975353902-sword-art-online-alternative-gun-gale-online-vol-2-light-novel-second-squad-jam)]",
+          "series": "Sword Art Online Alternative Gun Gale Online",
+          "series_index": 2.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048690959",
+          "identifiers": {
+            "ranobedb": "14475"
+          },
+          "source_relevance": 6
+        },
+        {
+          "title": "Sword Art Online Alternative Gun Gale Online, Vol. 3: Second Squad Jam: Finish",
+          "authors": [
+            "時雨沢恵一"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2015-06-10 00:00:00",
+          "comments": "A Brand-New Battlefield Awaits! The second Squad Jam plays out with Pitohui's actual, real-world death on the line. The only way to prevent the most horrific outcome is for Llenn to kill Pitohui herself...Determined to engage in the battle, she teams up with her friend and recent ALfheim Online convert from back home, Miyu, hoping to take down all who stand in their way. As they race to reach Pitohui, Pitohui is madly obliterating enemy teams, almost as though she is enjoying the death game...Can Llenn save Pitohui before it's too late?\n\n[From [Yen Press](https://yenpress.com/titles/9781975353858-sword-art-online-alternative-gun-gale-online-vol-3-light-novel)]",
+          "series": "Sword Art Online Alternative Gun Gale Online",
+          "series_index": 3.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048651905",
+          "identifiers": {
+            "ranobedb": "15029"
+          },
+          "source_relevance": 7
+        },
+        {
+          "title": "Sword Art Online Alternative Gun Gale Online, Vol. 4: 3Rd Squad Jam: Betrayers' Choice",
+          "authors": [
+            "時雨沢恵一"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2016-03-10 00:00:00",
+          "comments": "Old frenemies become staunch allies as the strongest team in the history of Gun Gale is born! This time, LPFM, named for Llenn, Pitohui, Fukaziroh, and M, will enter the third Squad Jam and overcome fierce competition as they aim for ultimate victory! But with a map that’s slowly sinking into the sea, an “unknown” area at its center, and a “special rule” that won’t come into effect until the competition nears its end, this Squad Jam is proving to be one big mystery after another…\n\n[From [Yen Press](https://yenpress.com/titles/9781975353926-sword-art-online-alternative-gun-gale-online-vol-4-light-novel-3rd-squad-jam)]",
+          "series": "Sword Art Online Alternative Gun Gale Online",
+          "series_index": 4.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048658188",
+          "identifiers": {
+            "ranobedb": "17079"
+          },
+          "source_relevance": 8
+        },
+        {
+          "title": "Sword Art Online Alternative Gun Gale Online, Vol. 5: 3Rd Squad Jam: Betrayers' Choice: Finish",
+          "authors": [
+            "時雨沢恵一"
+          ],
+          "publisher": "KADOKAWA",
+          "pubdate": "2016-07-09 00:00:00",
+          "comments": "As the third Squad Jam begins to wind down, the special rule takes effect. One player from each group is chosen to become a part of the new Team Betrayers and fight against their friends! LPFM—one of the favorites to win it all—has lost a crucial member, and Pitohui couldn’t be happier to have been picked. Not looking forward to her rematch with the trigger-happy lunatic, Llenn is forced to watch as Pito gets escorted to the mysterious Unknown area at the center of the sinking map, which is surrounded by a thick fog. As bullets of betrayal fly past former allies, the fog finally clears to reveal...a luxury cruise ship?!\n\n[From [Yen Press](https://yenpress.com/titles/9781975353872-sword-art-online-alternative-gun-gale-online-vol-5-light-novel)]",
+          "series": "Sword Art Online Alternative Gun Gale Online",
+          "series_index": 5.0,
+          "language": "en",
+          "tags": [
+            "action",
+            "adventure",
+            "comedy",
+            "drama",
+            "romance",
+            "sci-fi",
+            "anime tie-in",
+            "isekai"
+          ],
+          "isbn": "9784048921107",
+          "identifiers": {
+            "ranobedb": "18019"
+          },
+          "source_relevance": 9
+        }
+      ],
+      "errors": [],
+      "expectations_met": {
+        "has_results": true
+      }
+    }
+  ]
+}

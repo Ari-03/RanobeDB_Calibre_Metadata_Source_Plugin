@@ -10,9 +10,9 @@ License: GPL v3
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-__license__ = "GPL v3"
-__copyright__ = "2024, RanobeDB Plugin Author"
-__docformat__ = "restructuredtext en"
+__license__ = 'GPL v3'
+__copyright__ = '2024, RanobeDB Plugin Author'
+__docformat__ = 'restructuredtext en'
 
 import json
 import time
@@ -36,29 +36,29 @@ class RanobeDBLightNovels(Source):
     Downloads metadata and covers for light novels from https://ranobedb.org
     """
 
-    name = "RanobeDB Light Novels"
-    description = "Downloads metadata and covers from RanobeDB for light novels"
-    author = "RanobeDB Plugin Author"
+    name = 'RanobeDB Light Novels'
+    description = 'Downloads metadata and covers from RanobeDB for light novels'
+    author = 'RanobeDB Plugin Author'
     version = (1, 0, 0)
     minimum_calibre_version = (5, 0, 0)
 
     # Plugin capabilities
-    capabilities = frozenset({"identify", "cover"})
+    capabilities = frozenset({'identify', 'cover'})
 
     # Metadata fields this plugin can provide
     touched_fields = frozenset(
         {
-            "title",
-            "authors",
-            "tags",
-            "pubdate",
-            "comments",
-            "publisher",
-            "identifier:ranobedb",
-            "identifier:isbn",
-            "series",
-            "series_index",
-            "languages",
+            'title',
+            'authors',
+            'tags',
+            'pubdate',
+            'comments',
+            'publisher',
+            'identifier:ranobedb',
+            'identifier:isbn',
+            'series',
+            'series_index',
+            'languages',
         }
     )
 
@@ -69,9 +69,9 @@ class RanobeDBLightNovels(Source):
     prefer_results_with_isbn = False
 
     # API settings
-    BASE_URL = "https://ranobedb.org/api/v0"
-    WEBSITE_URL = "https://ranobedb.org"
-    IMAGE_BASE_URL = "https://ranobedb.org/images"
+    BASE_URL = 'https://ranobedb.org/api/v0'
+    WEBSITE_URL = 'https://ranobedb.org'
+    IMAGE_BASE_URL = 'https://ranobedb.org/images'
 
     # Rate limiting: 60 requests/minute = 1 second between requests
     RATE_LIMIT_DELAY = 1.0
@@ -81,23 +81,23 @@ class RanobeDBLightNovels(Source):
     # Configuration options
     options = (
         Option(
-            "preferred_language",
-            "choices",
-            "en",
-            _("Preferred language:"),
-            _("Select preferred language for book titles and metadata"),
+            'preferred_language',
+            'choices',
+            'en',
+            _('Preferred language:'),
+            _('Select preferred language for book titles and metadata'),
             choices={
-                "en": _("English"),
-                "ja": _("Japanese"),
-                "romaji": _("Romaji"),
+                'en': _('English'),
+                'ja': _('Japanese'),
+                'romaji': _('Romaji'),
             },
         ),
         Option(
-            "max_results",
-            "number",
+            'max_results',
+            'number',
             10,
-            _("Maximum results:"),
-            _("Maximum number of search results to return (1-25)"),
+            _('Maximum results:'),
+            _('Maximum number of search results to return (1-25)'),
         ),
     )
 
@@ -136,10 +136,10 @@ class RanobeDBLightNovels(Source):
 
         url = self.BASE_URL + endpoint
         if params:
-            url += "?" + urlencode(params)
+            url += '?' + urlencode(params)
 
         if log:
-            log.info("RanobeDB API request: %s" % url)
+            log.info('RanobeDB API request: %s' % url)
 
         try:
             br = self.browser
@@ -148,7 +148,7 @@ class RanobeDBLightNovels(Source):
             return json.loads(raw)
         except Exception as e:
             if log:
-                log.exception("RanobeDB API request failed: %s" % str(e))
+                log.exception('RanobeDB API request failed: %s' % str(e))
             return None
 
     # -------------------------------------------------------------------------
@@ -163,42 +163,42 @@ class RanobeDBLightNovels(Source):
         :param log: Log object
         :return: Tuple of (title, language_code)
         """
-        pref_lang = self.prefs.get("preferred_language", "en")
+        pref_lang = self.prefs.get('preferred_language', 'en')
 
         # Try to find title in preferred language from titles array
-        titles = book_data.get("titles", [])
+        titles = book_data.get('titles', [])
 
         # Language code mapping
         lang_map = {
-            "en": "en",
-            "ja": "ja",
-            "romaji": None,  # Romaji is stored in 'romaji' field
+            'en': 'en',
+            'ja': 'ja',
+            'romaji': None,  # Romaji is stored in 'romaji' field
         }
 
-        target_lang = lang_map.get(pref_lang, "en")
+        target_lang = lang_map.get(pref_lang, 'en')
 
         # If user wants romaji, try romaji field first
-        if pref_lang == "romaji":
-            romaji = book_data.get("romaji")
+        if pref_lang == 'romaji':
+            romaji = book_data.get('romaji')
             if romaji:
-                return romaji, book_data.get("lang", "ja")
+                return romaji, book_data.get('lang', 'ja')
 
         # Try to find title in preferred language
         for title_entry in titles:
-            if title_entry.get("lang") == target_lang:
-                return title_entry.get("title"), target_lang
+            if title_entry.get('lang') == target_lang:
+                return title_entry.get('title'), target_lang
 
         # Fall back to main title
-        main_title = book_data.get("title")
-        main_lang = book_data.get("lang", "ja")
+        main_title = book_data.get('title')
+        main_lang = book_data.get('lang', 'ja')
 
         # If main title is in preferred language, use it
         if main_lang == target_lang:
             return main_title, main_lang
 
         # Last resort: check title_orig for original language title
-        if pref_lang == "ja" and book_data.get("title_orig"):
-            return book_data.get("title_orig"), "ja"
+        if pref_lang == 'ja' and book_data.get('title_orig'):
+            return book_data.get('title_orig'), 'ja'
 
         return main_title, main_lang
 
@@ -206,22 +206,26 @@ class RanobeDBLightNovels(Source):
         """
         Extract authors from book editions data.
         Only includes staff with role_type 'author'.
+        Prefers romaji names over Japanese names.
 
         :param book_data: Book data from API
         :param log: Log object
         :return: List of author names
         """
         authors = []
-        editions = book_data.get("editions", [])
+        editions = book_data.get('editions', [])
 
         for edition in editions:
-            for staff in edition.get("staff", []):
-                if staff.get("role_type") == "author":
-                    name = staff.get("name")
-                    if name and name not in authors:
-                        authors.append(name)
+            for staff in edition.get('staff', []):
+                if staff.get('role_type') == 'author':
+                    # Prefer: English/Romaji > Japanese
+                    romaji = staff.get('romaji')
+                    name = staff.get('name')
+                    author_name = romaji if romaji else name
+                    if author_name and author_name not in authors:
+                        authors.append(author_name)
 
-        return authors if authors else [_("Unknown")]
+        return authors if authors else [_('Unknown')]
 
     def _extract_tags(self, series_data, log=None):
         """
@@ -236,10 +240,10 @@ class RanobeDBLightNovels(Source):
             return []
 
         tags = []
-        for tag in series_data.get("tags", []):
-            ttype = tag.get("ttype")
-            if ttype in ("genre", "tag"):
-                name = tag.get("name")
+        for tag in series_data.get('tags', []):
+            ttype = tag.get('ttype')
+            if ttype in ('genre', 'tag'):
+                name = tag.get('name')
                 if name and name not in tags:
                     tags.append(name)
 
@@ -253,10 +257,10 @@ class RanobeDBLightNovels(Source):
         :param log: Log object
         :return: ISBN string or None
         """
-        releases = book_data.get("releases", [])
+        releases = book_data.get('releases', [])
 
         for release in releases:
-            isbn = release.get("isbn13")
+            isbn = release.get('isbn13')
             if isbn:
                 validated = check_isbn(isbn)
                 if validated:
@@ -283,10 +287,10 @@ class RanobeDBLightNovels(Source):
                 year = date_str[:4]
                 month = date_str[4:6]
                 day = date_str[6:8]
-                return parse_date(f"{year}-{month}-{day}")
+                return parse_date(f'{year}-{month}-{day}')
         except Exception as e:
             if log:
-                log.warning("Failed to parse date %s: %s" % (date_int, str(e)))
+                log.warning('Failed to parse date %s: %s' % (date_int, str(e)))
 
         return None
 
@@ -298,9 +302,9 @@ class RanobeDBLightNovels(Source):
         :param log: Log object
         :return: Cover URL string or None
         """
-        image = book_data.get("image")
-        if image and image.get("filename"):
-            return f"{self.IMAGE_BASE_URL}/{image['filename']}"
+        image = book_data.get('image')
+        if image and image.get('filename'):
+            return f'{self.IMAGE_BASE_URL}/{image["filename"]}'
         return None
 
     # -------------------------------------------------------------------------
@@ -315,20 +319,20 @@ class RanobeDBLightNovels(Source):
         :param log: Log object
         :return: Tuple of (series_name, series_index) or (None, None)
         """
-        series = book_data.get("series")
+        series = book_data.get('series')
         if not series:
             return None, None
 
-        series_name = series.get("title")
+        series_name = series.get('title')
 
         # Find series index from the books list in series
         series_index = None
-        book_id = book_data.get("id")
+        book_id = book_data.get('id')
 
-        for idx, book in enumerate(series.get("books", []), start=1):
-            if book.get("id") == book_id:
+        for idx, book in enumerate(series.get('books', []), start=1):
+            if book.get('id') == book_id:
                 # Use sort_order if available, otherwise use position
-                series_index = book.get("sort_order", idx)
+                series_index = book.get('sort_order', idx)
                 break
 
         return series_name, series_index
@@ -344,15 +348,15 @@ class RanobeDBLightNovels(Source):
         :param identifiers: Dict of identifiers
         :return: Tuple of (id_type, id_value, url) or None
         """
-        ranobedb_id = identifiers.get("ranobedb")
+        ranobedb_id = identifiers.get('ranobedb')
         if ranobedb_id:
-            url = f"{self.WEBSITE_URL}/book/{ranobedb_id}"
-            return ("ranobedb", ranobedb_id, url)
+            url = f'{self.WEBSITE_URL}/book/{ranobedb_id}'
+            return ('ranobedb', ranobedb_id, url)
         return None
 
     def get_book_url_name(self, idtype, idval, url):
         """Return human-readable name for the book URL."""
-        return "RanobeDB"
+        return 'RanobeDB'
 
     def id_from_url(self, url):
         """
@@ -363,9 +367,9 @@ class RanobeDBLightNovels(Source):
         """
         import re
 
-        match = re.search(r"ranobedb\.org/book/(\d+)", url)
+        match = re.search(r'ranobedb\.org/book/(\d+)', url)
         if match:
-            return ("ranobedb", match.group(1))
+            return ('ranobedb', match.group(1))
         return None
 
     # -------------------------------------------------------------------------
@@ -379,7 +383,7 @@ class RanobeDBLightNovels(Source):
         :param identifiers: Dict of identifiers
         :return: Cover URL or None
         """
-        ranobedb_id = identifiers.get("ranobedb")
+        ranobedb_id = identifiers.get('ranobedb')
         if ranobedb_id:
             return self.cached_identifier_to_cover_url(ranobedb_id)
         return None
@@ -403,12 +407,10 @@ class RanobeDBLightNovels(Source):
             tokens.extend(title_tokens)
 
         if authors:
-            author_tokens = list(
-                self.get_author_tokens(authors, only_first_author=True)
-            )
+            author_tokens = list(self.get_author_tokens(authors, only_first_author=True))
             tokens.extend(author_tokens)
 
-        return " ".join(tokens)
+        return ' '.join(tokens)
 
     def _search_books(self, query, log, timeout=30):
         """
@@ -419,22 +421,22 @@ class RanobeDBLightNovels(Source):
         :param timeout: Request timeout
         :return: List of book results
         """
-        max_results = min(max(1, self.prefs.get("max_results", 10)), 25)
+        max_results = min(max(1, self.prefs.get('max_results', 10)), 25)
 
         params = {
-            "q": query,
-            "limit": max_results,
+            'q': query,
+            'limit': max_results,
         }
 
         # Add English language filter for releases
-        pref_lang = self.prefs.get("preferred_language", "en")
-        if pref_lang == "en":
-            params["rl[]"] = "en"
+        pref_lang = self.prefs.get('preferred_language', 'en')
+        if pref_lang == 'en':
+            params['rl[]'] = 'en'
 
-        response = self._make_api_request("/books", params, log, timeout)
+        response = self._make_api_request('/books', params, log, timeout)
 
-        if response and "books" in response:
-            return response["books"]
+        if response and 'books' in response:
+            return response['books']
 
         return []
 
@@ -447,7 +449,10 @@ class RanobeDBLightNovels(Source):
         :param timeout: Request timeout
         :return: Book details dict or None
         """
-        return self._make_api_request(f"/book/{book_id}", None, log, timeout)
+        response = self._make_api_request(f'/book/{book_id}', None, log, timeout)
+        if response and 'book' in response:
+            return response['book']
+        return None
 
     def _book_to_metadata(self, book_data, relevance, log):
         """
@@ -468,8 +473,8 @@ class RanobeDBLightNovels(Source):
         mi = Metadata(title, authors)
 
         # Set identifiers
-        book_id = str(book_data.get("id"))
-        mi.set_identifier("ranobedb", book_id)
+        book_id = str(book_data.get('id'))
+        mi.set_identifier('ranobedb', book_id)
 
         # Set ISBN if available
         isbn = self._extract_isbn(book_data, log)
@@ -478,17 +483,17 @@ class RanobeDBLightNovels(Source):
             self.cache_isbn_to_identifier(isbn, book_id)
 
         # Set description/comments
-        description = book_data.get("description") or book_data.get("description_ja")
+        description = book_data.get('description') or book_data.get('description_ja')
         if description:
             mi.comments = description
 
         # Set publisher (first publisher)
-        publishers = book_data.get("publishers", [])
+        publishers = book_data.get('publishers', [])
         if publishers:
-            mi.publisher = publishers[0].get("name")
+            mi.publisher = publishers[0].get('name')
 
         # Set publication date
-        pubdate = self._parse_date(book_data.get("c_release_date"), log)
+        pubdate = self._parse_date(book_data.get('c_release_date'), log)
         if pubdate:
             mi.pubdate = pubdate
 
@@ -504,7 +509,7 @@ class RanobeDBLightNovels(Source):
                 mi.series_index = float(series_index)
 
         # Set tags from series (genres + tags only)
-        series_data = book_data.get("series")
+        series_data = book_data.get('series')
         tags = self._extract_tags(series_data, log)
         if tags:
             mi.tags = tags
@@ -542,16 +547,16 @@ class RanobeDBLightNovels(Source):
         :return: None on success, error string on failure
         """
         log.info(
-            "RanobeDB: Starting identify for title=%s, authors=%s, identifiers=%s"
+            'RanobeDB: Starting identify for title=%s, authors=%s, identifiers=%s'
             % (title, authors, identifiers)
         )
 
         # Check if we have a RanobeDB ID
-        ranobedb_id = identifiers.get("ranobedb")
+        ranobedb_id = identifiers.get('ranobedb')
 
         if ranobedb_id:
             # Direct lookup by ID
-            log.info("RanobeDB: Looking up book by ID: %s" % ranobedb_id)
+            log.info('RanobeDB: Looking up book by ID: %s' % ranobedb_id)
 
             if abort.is_set():
                 return None
@@ -562,13 +567,13 @@ class RanobeDBLightNovels(Source):
                 mi = self._book_to_metadata(book_data, 0, log)
                 self.clean_downloaded_metadata(mi)
                 result_queue.put(mi)
-                log.info("RanobeDB: Found book: %s" % mi.title)
+                log.info('RanobeDB: Found book: %s' % mi.title)
                 return None
             else:
-                log.warning("RanobeDB: Book not found with ID: %s" % ranobedb_id)
+                log.warning('RanobeDB: Book not found with ID: %s' % ranobedb_id)
 
         # Check for ISBN
-        isbn = identifiers.get("isbn")
+        isbn = identifiers.get('isbn')
         if isbn:
             isbn = check_isbn(isbn)
 
@@ -576,14 +581,14 @@ class RanobeDBLightNovels(Source):
         query = self._create_search_query(title, authors)
 
         if not query and not isbn:
-            log.error("RanobeDB: Insufficient metadata for search")
+            log.error('RanobeDB: Insufficient metadata for search')
             return None
 
         # If we have ISBN, add it to query
         if isbn:
-            query = isbn if not query else f"{query} {isbn}"
+            query = isbn if not query else f'{query} {isbn}'
 
-        log.info("RanobeDB: Searching with query: %s" % query)
+        log.info('RanobeDB: Searching with query: %s' % query)
 
         if abort.is_set():
             return None
@@ -592,21 +597,21 @@ class RanobeDBLightNovels(Source):
         search_results = self._search_books(query, log, timeout)
 
         if not search_results:
-            log.info("RanobeDB: No results found")
+            log.info('RanobeDB: No results found')
             return None
 
-        log.info("RanobeDB: Found %d results" % len(search_results))
+        log.info('RanobeDB: Found %d results' % len(search_results))
 
         # Fetch details for each result
         for relevance, book in enumerate(search_results):
             if abort.is_set():
                 break
 
-            book_id = book.get("id")
+            book_id = book.get('id')
             if not book_id:
                 continue
 
-            log.info("RanobeDB: Fetching details for book ID: %s" % book_id)
+            log.info('RanobeDB: Fetching details for book ID: %s' % book_id)
 
             book_data = self._get_book_details(book_id, log, timeout)
 
@@ -614,7 +619,7 @@ class RanobeDBLightNovels(Source):
                 mi = self._book_to_metadata(book_data, relevance, log)
                 self.clean_downloaded_metadata(mi)
                 result_queue.put(mi)
-                log.info("RanobeDB: Added result: %s by %s" % (mi.title, mi.authors))
+                log.info('RanobeDB: Added result: %s by %s' % (mi.title, mi.authors))
 
         return None
 
@@ -645,14 +650,14 @@ class RanobeDBLightNovels(Source):
         :param timeout: Request timeout in seconds
         :param get_best_cover: If True, only get the best cover
         """
-        log.info("RanobeDB: Starting cover download")
+        log.info('RanobeDB: Starting cover download')
 
         # Try to get cached cover URL
         cached_url = self.get_cached_cover_url(identifiers)
 
         if cached_url is None:
             # No cached URL, try to identify first
-            log.info("RanobeDB: No cached cover URL, running identify")
+            log.info('RanobeDB: No cached cover URL, running identify')
 
             rq = Queue()
             self.identify(
@@ -685,13 +690,13 @@ class RanobeDBLightNovels(Source):
                     break
 
         if cached_url is None:
-            log.info("RanobeDB: No cover URL found")
+            log.info('RanobeDB: No cover URL found')
             return
 
         if abort.is_set():
             return
 
-        log.info("RanobeDB: Downloading cover from: %s" % cached_url)
+        log.info('RanobeDB: Downloading cover from: %s' % cached_url)
 
         try:
             self._rate_limit()
@@ -700,12 +705,12 @@ class RanobeDBLightNovels(Source):
 
             if cover_data:
                 result_queue.put((self, cover_data))
-                log.info("RanobeDB: Cover downloaded successfully")
+                log.info('RanobeDB: Cover downloaded successfully')
         except Exception as e:
-            log.exception("RanobeDB: Failed to download cover: %s" % str(e))
+            log.exception('RanobeDB: Failed to download cover: %s' % str(e))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     # Test the plugin
     from calibre.ebooks.metadata.sources.test import (
         test_identify_plugin,
@@ -715,17 +720,17 @@ if __name__ == "__main__":
 
     tests = [
         (
-            {"title": "Sword Art Online", "authors": ["Reki Kawahara"]},
+            {'title': 'Sword Art Online', 'authors': ['Reki Kawahara']},
             [
-                title_test("Sword Art Online", exact=False),
+                title_test('Sword Art Online', exact=False),
             ],
         ),
         (
             {
-                "title": "Spice and Wolf",
+                'title': 'Spice and Wolf',
             },
             [
-                title_test("Spice", exact=False),
+                title_test('Spice', exact=False),
             ],
         ),
     ]
