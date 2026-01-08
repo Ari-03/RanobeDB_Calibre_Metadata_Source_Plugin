@@ -559,27 +559,19 @@ class RanobeDBLightNovels(Source):
 
     def _create_search_query(self, title=None, authors=None):
         """
-        Create search query string from title and authors.
+        Create search query string from title only.
 
-        Passes title through unchanged for best search accuracy.
-        Special characters like & are handled by urlencode().
+        Note: RanobeDB search only searches titles, not authors.
+        Adding author names to the query breaks search and returns no results.
+        The authors parameter is accepted for API compatibility but ignored.
 
         :param title: Book title
-        :param authors: List of authors
+        :param authors: List of authors (ignored - kept for API compatibility)
         :return: Query string
         """
-        parts = []
-
         if title:
-            parts.append(title)
-
-        if authors:
-            if isinstance(authors, list) and authors:
-                first_author = authors[0]
-                if first_author and first_author.lower() != 'unknown':
-                    parts.append(first_author)
-
-        return ' '.join(parts)
+            return title
+        return ''
 
     def _search_books(self, query, log, timeout=30):
         """
@@ -693,6 +685,50 @@ class RanobeDBLightNovels(Source):
 
         return mi
 
+    def _book_to_basic_metadata(self, search_result, relevance, log):
+        """
+        Convert RanobeDB search result to basic Calibre Metadata object.
+
+        This creates a lightweight metadata object from search results without
+        making additional API calls. Used for results beyond the top few to
+        improve performance.
+
+        :param search_result: Book data from search API (not full details)
+        :param relevance: Source relevance integer
+        :param log: Log object
+        :return: Metadata object with basic info (title, cover, pubdate)
+        """
+        # Get title - prefer English title if available
+        title = search_result.get('title') or search_result.get('title_orig')
+
+        # Create Metadata with unknown author (search doesn't include authors)
+        mi = Metadata(title, [_('Unknown')])
+
+        # Set identifiers
+        book_id = str(search_result.get('id'))
+        mi.set_identifier('ranobedb', book_id)
+
+        # Set publication date from search data
+        pubdate = self._parse_date(search_result.get('c_release_date'), log)
+        if pubdate:
+            mi.pubdate = pubdate
+
+        # Set language
+        lang = search_result.get('lang')
+        if lang:
+            mi.language = lang
+
+        # Cache cover URL from search data
+        image = search_result.get('image')
+        if image and image.get('filename'):
+            cover_url = f'{self.IMAGE_BASE_URL}/{image["filename"]}'
+            self.cache_identifier_to_cover_url(book_id, cover_url)
+
+        # Set source relevance for sorting
+        mi.source_relevance = relevance
+
+        return mi
+
     def identify(
         self,
         log,
@@ -771,8 +807,21 @@ class RanobeDBLightNovels(Source):
 
         log.info('RanobeDB: Found %d results' % len(search_results))
 
-        # Fetch details for each result
-        for relevance, book in enumerate(search_results):
+        # Determine how many results to fetch full details for
+        # High similarity (>=0.9): fetch only top 1 (fast path)
+        # Otherwise: fetch top 3 for comparison
+        top_score = search_results[0].get('sim_score', 0) if search_results else 0
+        if top_score >= 0.9:
+            fetch_count = 1
+            log.info(
+                'RanobeDB: High confidence match (score %.2f), fetching top 1 only' % top_score
+            )
+        else:
+            fetch_count = min(3, len(search_results))
+            log.info('RanobeDB: Fetching full details for top %d results' % fetch_count)
+
+        # Fetch full details for top results (includes authors, series, etc.)
+        for relevance, book in enumerate(search_results[:fetch_count]):
             if abort.is_set():
                 break
 
@@ -788,7 +837,17 @@ class RanobeDBLightNovels(Source):
                 mi = self._book_to_metadata(book_data, relevance, log)
                 self.clean_downloaded_metadata(mi)
                 result_queue.put(mi)
-                log.info('RanobeDB: Added result: %s by %s' % (mi.title, mi.authors))
+                log.info('RanobeDB: Added full result: %s by %s' % (mi.title, mi.authors))
+
+        # Return basic metadata for remaining results (no API calls - fast!)
+        for relevance, book in enumerate(search_results[fetch_count:], start=fetch_count):
+            if abort.is_set():
+                break
+
+            mi = self._book_to_basic_metadata(book, relevance, log)
+            self.clean_downloaded_metadata(mi)
+            result_queue.put(mi)
+            log.info('RanobeDB: Added basic result: %s' % mi.title)
 
         return None
 
