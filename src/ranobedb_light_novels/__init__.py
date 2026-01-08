@@ -71,7 +71,7 @@ class RanobeDBLightNovels(Source):
     # API settings
     BASE_URL = 'https://ranobedb.org/api/v0'
     WEBSITE_URL = 'https://ranobedb.org'
-    IMAGE_BASE_URL = 'https://ranobedb.org/images'
+    IMAGE_BASE_URL = 'https://images.ranobedb.org'
 
     # Rate limiting: 60 requests/minute = 1 second between requests
     RATE_LIMIT_DELAY = 1.0
@@ -561,21 +561,25 @@ class RanobeDBLightNovels(Source):
         """
         Create search query string from title and authors.
 
+        Passes title through unchanged for best search accuracy.
+        Special characters like & are handled by urlencode().
+
         :param title: Book title
         :param authors: List of authors
         :return: Query string
         """
-        tokens = []
+        parts = []
 
         if title:
-            title_tokens = list(self.get_title_tokens(title, strip_joiners=True))
-            tokens.extend(title_tokens)
+            parts.append(title)
 
         if authors:
-            author_tokens = list(self.get_author_tokens(authors, only_first_author=True))
-            tokens.extend(author_tokens)
+            if isinstance(authors, list) and authors:
+                first_author = authors[0]
+                if first_author and first_author.lower() != 'unknown':
+                    parts.append(first_author)
 
-        return ' '.join(tokens)
+        return ' '.join(parts)
 
     def _search_books(self, query, log, timeout=30):
         """
